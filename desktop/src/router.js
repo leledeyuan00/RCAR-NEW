@@ -67,7 +67,7 @@ router.beforeEach((to, from ,next) => {
     		if (!browser.versions.iPad) {
     			if (browser.versions.android || browser.versions.iPhone) {
               console.log(location.hostname + (location.port?":"+location.port :'') + "/mobile")
-    					self.location = location.hostname + (location.port?":"+location.port :'') + "/mobile"; //你要变成移动端的地址
+    					self.location = "/mobile"; //你要变成移动端的地址
     				
     			}
     		}

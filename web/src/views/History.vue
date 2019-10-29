@@ -23,7 +23,6 @@
               </div>
             </b-carousel>
           </div>
-          <div class="text-center py-1 fs-l">The first RCAR conference, i.e.,</div>
           <b-card-text
             class="fw-xl fs-l"
           >The 2015 International Conference on Real-time Computing and Robotics (RCAR 2015)</b-card-text>
@@ -35,14 +34,6 @@
             <div>
               <span class="fw-xl pr-2">Time:</span>
               <span>June 23-26, 2015</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Attendance:</span>
-              <span>There were around 80 attendees from 10 countries around the world totally</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Website:</span>
-              <a href="http://www.rcar2015.org" target="_blank" rel="noopener">www.rcar2015.org</a>
             </div>
           </div>
         </b-card>
@@ -61,7 +52,6 @@
               </div>
             </b-carousel>
           </div>
-          <div class="text-center py-1 fs-l">The second RCAR conference, i.e.,</div>
           <b-card-text
             class="fw-xl fs-l"
           >The 2016 International Conference on Real-time Computing and Robotics (RCAR 2016)</b-card-text>
@@ -73,18 +63,6 @@
             <div>
               <span class="fw-xl pr-2">Time:</span>
               <span>June 6-9, 2016</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Attendance:</span>
-              <span>There were around 120 attendees from 10+ countries around the world totally</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Website:</span>
-              <a
-                href="http://robotics.sjtu.edu.cn/RCAR/"
-                target="_blank"
-                rel="noopener"
-              >robotics.sjtu.edu.cn/RCAR/</a>
             </div>
           </div>
         </b-card>
@@ -105,7 +83,6 @@
               </div>
             </b-carousel>
           </div>
-          <div class="text-center py-1 fs-l">The third RCAR conference, i.e.,</div>
           <b-card-text
             class="fw-xl fs-l"
           >The 2017 International Conference on Real-time Computing and Robotics (RCAR 2017)</b-card-text>
@@ -117,18 +94,6 @@
             <div>
               <span class="fw-xl pr-2">Time:</span>
               <span>July 14-18, 2017</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Attendance:</span>
-              <span>There were around attendees from 140 attendees from 10+ countries around the world totally</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Website:</span>
-              <a
-                href="http://robotics.sjtu.edu.cn/RCAR2017/"
-                target="_blank"
-                rel="noopener"
-              >robotics.sjtu.edu.cn/RCAR2017/</a>
             </div>
           </div>
         </b-card>
@@ -147,7 +112,6 @@
               </div>
             </b-carousel>
           </div>
-          <div class="text-center py-1 fs-l">The 4th RCAR conference, i.e.,</div>
           <b-card-text
             class="fw-xl fs-l"
           >The 2018 International Conference on Real-time Computing and Robotics (RCAR 2018)</b-card-text>
@@ -159,18 +123,6 @@
             <div>
               <span class="fw-xl pr-2">Time:</span>
               <span>August 1-5, 2018</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Attendance:</span>
-              <span>There were around attendees from 140 attendees from 10+ countries around the world totally</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Website:</span>
-              <a
-                href="http://robotics.sjtu.edu.cn/RCAR2018/"
-                target="_blank"
-                rel="noopener"
-              >robotics.sjtu.edu.cn/RCAR2018/</a>
             </div>
           </div>
         </b-card>
@@ -191,7 +143,6 @@
               </div>
             </b-carousel>
           </div>
-          <div class="text-center py-1 fs-l">The 5th RCAR conference, i.e.,</div>
           <b-card-text
             class="fw-xl fs-l"
           >The 2019 International Conference on Real-time Computing and Robotics (RCAR 2019)</b-card-text>
@@ -203,18 +154,6 @@
             <div>
               <span class="fw-xl pr-2">Time:</span>
               <span>August 4-9, 2019</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Attendance:</span>
-              <span>There were around attendees from 140 attendees from 10+ countries around the world totally</span>
-            </div>
-            <div>
-              <span class="fw-xl pr-2">Website:</span>
-              <a
-                href="http://rcar2019.bigsmilelab.ac.cn/"
-                target="_blank"
-                rel="noopener"
-              >rcar2019.bigsmilelab.ac.cn/</a>
             </div>
           </div>
         </b-card>

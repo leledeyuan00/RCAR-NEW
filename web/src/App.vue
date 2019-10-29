@@ -2,7 +2,7 @@
   <div id="app">
     <div class="topbar">
       <b-navbar toggleable="lg" type="dark" class="background" variant="info">
-        <b-navbar-brand href="/">
+        <b-navbar-brand href="./">
           <img src="./assets/logo.png" class="d-inline-block align-top" style="max-width:35px" />
         </b-navbar-brand>
         <span class="text-white fs-xxl">IEEE RCAR 2020</span>
@@ -10,7 +10,7 @@
         <!-- collapse -->
         <b-collapse id="nav-collapse" is-nav class="fs-xl">
           <b-navbar-nav class="m-auto">
-            <b-nav-item href="/">Home</b-nav-item>
+            <b-nav-item href="./">Home</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
             <b-nav-item href="#">Committee</b-nav-item>
@@ -42,7 +42,7 @@
             </b-nav-item-dropdown>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item href="/history">History</b-nav-item>
+            <b-nav-item href="./#/history">History</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>

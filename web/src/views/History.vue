@@ -14,7 +14,7 @@
               img-height="480"
             >
               <div v-for="(item,i) in i2015" :key="i">
-                <b-carousel-slide caption="Changshan,China" :img-src="item"></b-carousel-slide>
+                <b-carousel-slide caption="Changsha,China" :img-src="item"></b-carousel-slide>
               </div>
             </b-carousel>
           </div>
@@ -25,7 +25,7 @@
           <div class="history-message">
             <div>
               <span class="fw-xl pr-2">Location:</span>
-              <span>Changshan,China</span>
+              <span>Changsha,China</span>
             </div>
             <div>
               <span class="fw-xl pr-2">Time:</span>

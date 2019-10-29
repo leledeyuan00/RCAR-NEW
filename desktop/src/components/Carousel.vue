@@ -14,13 +14,13 @@ export default Vue.extend({
     name:"block",
     data(){
         return{
-            item_list:[{src:require("./../../pict/01.jpg")
+            item_list:[{src:require("./../../pict/01.png")
             },
-            {src:require("./../../pict/02.jpg")
+            {src:require("./../../pict/02.png")
             },
-            {src:require("./../../pict/03.jpg")
+            {src:require("./../../pict/03.png")
             },
-            {src:require("./../../pict/04.jpg")
+            {src:require("./../../pict/04.png")
             }
             ],
            /*  bannerHeight:1000,

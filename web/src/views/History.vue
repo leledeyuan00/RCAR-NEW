@@ -1,6 +1,11 @@
 <template>
   <div>
-    <div class="head-bar">History of RCAR</div>
+    <div class="head-bar d-flex ai-center">
+    <router-link tag="div" :to="'./'">
+        <i class="el-icon-arrow-left fs-xxxl"></i> 
+      </router-link>  
+    <span class="flex-1 pr-1">History of RCAR</span>
+    </div>
     <div>
       <b-card-group>
         <b-card id="2015" img-left>

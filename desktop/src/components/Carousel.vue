@@ -1,49 +1,41 @@
 <template>
-  <div class="block">
-    <span class="demonstration"></span>
-    <el-carousel height="500px">
-      <el-carousel-item v-for="item in item_list" :key="item">
-        <img :src="item.src"  alt=""/>
-      </el-carousel-item>
-    </el-carousel>
+  <div>
+    <b-carousel
+      id="carousel"
+      style="text-shadow: 0px 0px 2px #000"
+      controls
+      fade
+      indicators
+      img-width="1280"
+      img-height="720"
+    >
+      <div v-for="img in img_list" :key="img">
+        <b-carousel-slide :caption="img.msg" :img-src="img.src"></b-carousel-slide>
+      </div>
+    </b-carousel>
   </div>
 </template>
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-    name:"block",
-    data(){
-        return{
-            item_list:[{src:require("./../../pict/01.png")
-            },
-            {src:require("./../../pict/02.png")
-            },
-            {src:require("./../../pict/03.png")
-            },
-            {src:require("./../../pict/04.png")
-            }
-            ],
-           /*  bannerHeight:1000,
-            screenWidth:0, */
-        }
-    },
-})
+<script>
+import Vue from "vue";
+import { CarouselPlugin } from "bootstrap-vue";
+Vue.use(CarouselPlugin);
+export default {
+  data() {
+    return {
+      img_list: [
+        { src: require("./../../pict/01.png"),
+        msg:""},
+        { src: require("./../../pict/02.png"),
+        msg:"" },
+        { src: require("./../../pict/03.png"),
+        msg:"" },
+        { src: require("./../../pict/04.png"),
+        msg:"" }
+      ]
+    };
+  }
+};
 </script>
 
 <style>
- /*  .el-carousel__item h3 {
-    color: #475669;
-    font-size: 14px;
-    opacity: 0.75;
-    line-height: 150px;
-    margin: 0;
-  } */
-
-/*   .el-carousel__item:nth-child(2n) {
-     background-color: #99a9bf;
-  }
-  
-  .el-carousel__item:nth-child(2n+1) {
-     background-color: #d3dce6;
-  } */
 </style>

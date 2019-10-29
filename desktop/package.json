@@ -9,8 +9,12 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.4",
     "core-js": "^2.6.5",
     "element-ui": "^2.4.5",
+    "popper.js": "^1.16.0",
+    "sass": "^1.23.1",
+    "sass-loader": "^8.0.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },

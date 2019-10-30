@@ -7,8 +7,8 @@ const router = new Router({
   routes: [
     {
       path: "/",
-      name: "main",
       component: Main,
+      
       children: [
         {
           path: "/",

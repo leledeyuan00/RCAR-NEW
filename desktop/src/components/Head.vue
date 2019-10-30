@@ -1,9 +1,9 @@
 <template>
-  <div class="ai-center d-flex">
-    <div class="flex-1">
-      <img src="./../../icon/RCAR.png" />
+  <div class="ai-center d-flex jc-between">
+    <div class="logo">
+      <img :src="logo" alt="" style="max-width:300px">
     </div>
-    <span class="text-right">
+    <span class="text text-right flex-1" style="min-width:375px">
       <h5>
         <b>2020 IEEE International Conference on Real-time</b>
       </h5>
@@ -16,14 +16,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      logo: require("./../../icon/RCAR.png")
+    };
+  }
+};
 </script>
 
-<style>
-.img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
+<style lang="scss">
+.logo {
+  float: left;
+}
+.text {
+  float: right;
 }
 </style>

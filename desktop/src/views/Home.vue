@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="body_container home bg-white">
+    <div class="body_container home bg-white border-body">
       <Carousel />
       <div class>
         <video
@@ -27,16 +27,14 @@
       <div class="mx-5 text-center">
         <TimeTable />
       </div>
-      <h4 class="pt-2 text-center border-top">
+      <h4 class="py-2 text-center border-top">
         Welcome Message
         <i class="el-icon-magic-stick el-icon--right"></i>
       </h4>
-      <div class="msg bg-white">
+      <div class="msg bg-white px-2">
         <Body />
       </div>
-      <div class="text-center bg-white">
-        <b-img :src="logo_url" fluid-grow alt="Fluid-grow image"></b-img>
-      </div>
+      <SchoolBadge />
     </div>
   </div>
 </template>
@@ -46,14 +44,16 @@ import Vue from "vue";
 import Carousel from "./../components/Carousel.vue";
 import Body from "./../components/Body.vue";
 import TimeTable from "./../components/TimeTable.vue";
+import SchoolBadge from "./../components/SchoolBadge.vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
 export default {
-  name: "app",
+  name: "home",
   components: {
     Carousel,
     Body,
-    TimeTable
+    TimeTable,
+    SchoolBadge
   },
   data() {
     return {
@@ -65,12 +65,12 @@ export default {
 
 <style>
 .home {
-  margin-left: 5rem;
-  margin-right: 5rem;
+  max-width: 1366px;
+  margin:auto;
 }
 .msg {
-  padding-left: 10rem;
-  padding-right: 10rem;
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* .el-header, .el-footer {

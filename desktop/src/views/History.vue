@@ -1,92 +1,28 @@
 <template>
-  <div class="history">
-    <div>
-      <b-card id="2015" :img-src="i2015[1]" img-left>
-        <b-card-text
-          class="fw-xl fs-l"
-        >The 2015 International Conference on Real-time Computing and Robotics (RCAR 2015)</b-card-text>
-        <div class="history-message">
+  <div class="history border-body">
+    <div v-for="(info,i) in history_info" :key="i">
+      <b-card id :img-src="info.img" img-right>
+        <b-card-text class="fw-xl fs-l">{{info.head}}</b-card-text>
+        <div class="history-message pt-4">
           <div>
             <span class="fw-xl pr-2">Location:</span>
-            <span>Changsha,China</span>
+            <span>{{info.location}}</span>
           </div>
           <div>
             <span class="fw-xl pr-2">Time:</span>
-            <span>June 23-26, 2015</span>
-          </div>
-        </div>
-      </b-card>
-
-      <b-card id="2016" :img-src="i2016[1]" img-right>
-        <b-card-text
-          class="fw-xl fs-l"
-        >The 2016 International Conference on Real-time Computing and Robotics (RCAR 2016)</b-card-text>
-        <div class="history-message">
-          <div>
-            <span class="fw-xl pr-2">Location:</span>
-            <span>Angkor Wat, Cambodia</span>
-          </div>
-          <div>
-            <span class="fw-xl pr-2">Time:</span>
-            <span>June 6-9, 2016</span>
-          </div>
-        </div>
-      </b-card>
-
-      <b-card id="2017" :img-src="i2017[1]" img-left>
-        <b-card-text
-          class="fw-xl fs-l"
-        >The 2017 International Conference on Real-time Computing and Robotics (RCAR 2017)</b-card-text>
-        <div class="history-message">
-          <div>
-            <span class="fw-xl pr-2">Location:</span>
-            <span>Okinawa, Japan</span>
-          </div>
-          <div>
-            <span class="fw-xl pr-2">Time:</span>
-            <span>July 14-18, 2017</span>
-          </div>
-        </div>
-      </b-card>
-      <b-card id="2018" :img-src="i2018[1]" img-right>
-        <b-card-text
-          class="fw-xl fs-l"
-        >The 2018 International Conference on Real-time Computing and Robotics (RCAR 2018)</b-card-text>
-        <div class="history-message">
-          <div>
-            <span class="fw-xl pr-2">Location:</span>
-            <span>Kandima, Maldives</span>
-          </div>
-          <div>
-            <span class="fw-xl pr-2">Time:</span>
-            <span>August 1-5, 2018</span>
-          </div>
-        </div>
-      </b-card>
-
-      <b-card id="2019" :img-src="i2019[1]" img-left>
-        <b-card-text
-          class="fw-xl fs-l"
-        >The 2019 International Conference on Real-time Computing and Robotics (RCAR 2019)</b-card-text>
-        <div class="history-message">
-          <div>
-            <span class="fw-xl pr-2">Location:</span>
-            <span>Irkutsk, Russia</span>
-          </div>
-          <div>
-            <span class="fw-xl pr-2">Time:</span>
-            <span>August 4-9, 2019</span>
+            <span>{{info.time}}</span>
           </div>
         </div>
       </b-card>
     </div>
-    <div class="text-center bg-white">
-      <b-img :src="logo_url" fluid-grow alt="Fluid-grow image"></b-img>
+    <div class="SchoolBadge">
+      <SchoolBadge />
     </div>
   </div>
 </template>
 
 <script>
+import SchoolBadge from "./../components/SchoolBadge.vue";
 import Vue from "vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
@@ -95,34 +31,53 @@ Vue.use(CardPlugin);
 export default {
   data() {
     return {
-      i2015: [
-        require("../assets/images/2015-1.png"),
-        require("../assets/images/2015-2.png"),
-        require("../assets/images/2015-3.png"),
-        require("../assets/images/2015-4.png")
-      ],
-      i2016: [
-        require("../assets/images/2016-1.png"),
-        require("../assets/images/2016-2.png"),
-        require("../assets/images/2016-3.png")
-      ],
-      i2017: [
-        require("../assets/images/2017-1.png"),
-        require("../assets/images/2017-2.png"),
-        require("../assets/images/2017-3.png")
-      ],
-      i2018: [
-        require("../assets/images/2018-1.png"),
-        require("../assets/images/2018-2.png"),
-        require("../assets/images/2018-3.png"),
-        require("../assets/images/2018-4.png")
-      ],
-      i2019: [
-        require("../assets/images/2019-1.png"),
-        require("../assets/images/2019-2.png")
-      ],
+      history_info: {
+        h2015: {
+          head:
+            "The 2015 International Conference on Real-time Computing and Robotics (RCAR 2015)",
+          location: "Changsha,China",
+          time: "June 23-26, 2015",
+          img: require("./../assets/images/2015-2.png"),
+          assign: `img-left`
+        },
+        h2016: {
+          head:
+            "The 2016 International Conference on Real-time Computing and Robotics (RCAR 2016)",
+          location: "Angkor Wat, Cambodia",
+          time: "June 6-9, 2016",
+          img: require("./../assets/images/2016-2.png"),
+          assign: `img-left`
+        },
+        h2017: {
+          head:
+            "The 2017 International Conference on Real-time Computing and Robotics (RCAR 2017)",
+          location: "Okinawa, Japan",
+          time: "July 14-18, 2017",
+          img: require("./../assets/images/2017-2.png"),
+          assign: `img-left`
+        },
+        h2018: {
+          head:
+            "The 2018 International Conference on Real-time Computing and Robotics (RCAR 2018)",
+          location: "Kandima, Maldives",
+          time: "August 1-5, 2018",
+          img: require("./../assets/images/2018-2.png"),
+          assign: `img-left`
+        },
+        h2019: {
+          head:
+            "The 2019 International Conference on Real-time Computing and Robotics (RCAR 2019)",
+          location: "Irkutsk, Russia",
+          time: "August 4-9, 2019",
+          img: require("./../assets/images/2019-2.png"),
+          assign: `img-left`
+        }
+      },
       logo_url: require("./../../icon/committee_logo2.png")
     };
+  },
+  components: {
+    SchoolBadge
   }
 };
 </script>
@@ -134,7 +89,11 @@ export default {
   font-size: map-get($font-sizes, "l") * $base-font-size;
 }
 .history {
-  margin-left: 5rem;
-  margin-right: 5rem;
+  max-width: 1366px;
+  margin: auto;
+}
+.SchoolBadge {
+  border-radius: 3px;
+  border: solid 1px $border-color;
 }
 </style>

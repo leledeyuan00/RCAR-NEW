@@ -4,13 +4,13 @@ $colors: (
   "main-3":#1f3695,
   "main-4": #F3F7D2,
   "light-1":#90DAD9,
-  "grey": #999,
+  "grey": rgb(226, 226, 226),
   "grey-1": #666,
   "main-5": #234D69,
   "main-6": #152D3E,
   "black": #000
 );
-$border-color: map-get($colors, "light-1" );
+$border-color: map-get($colors, "grey" );
 // font-size
 $base-font-size: 1rem;
 

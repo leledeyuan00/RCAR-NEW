@@ -170,6 +170,14 @@ p{
   }
 }
 
+.border-body{
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 1rem;
+  // padding-bottom: 1rem;
+}
+
 //heading
 .head-bar{
   border-bottom-color: rgb(222, 226, 230);

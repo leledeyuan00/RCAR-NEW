@@ -1,9 +1,7 @@
 <template>
   <el-menu
-    :default-active="0"
     class="el-menu-demo"
     mode="horizontal"
-    @select="handleSelect"
     background-color="#3E99C9"
     text-color="#FFF"
   >

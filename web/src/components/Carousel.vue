@@ -11,16 +11,16 @@
         >请更新你的浏览器到最新版本</video>
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="../assets/images/01-f.png" alt />
+        <img class="w-100" height="auto" src="../assets/images/01-m.png" alt />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="../assets/images/02-f.png" alt />
+        <img class="w-100" height="auto" src="../assets/images/02-m.png" alt />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="../assets/images/03-f.png" alt />
+        <img class="w-100" height="auto" src="../assets/images/03-m.png" alt />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="../assets/images/04-f.png" alt />
+        <img class="w-100" height="auto" src="../assets/images/04-m.png" alt />
       </swiper-slide>
     </swiper>
   </div>

@@ -1,12 +1,10 @@
 <template>
-  <el-table
-    :data="tableData"
-    :row-class-name="tableRowClassName"
-    :show-header="false"
-  >
-    <el-table-column prop="info" min-width="400"></el-table-column>
-    <el-table-column prop="date" min-width="100"></el-table-column>
-  </el-table>
+  <div class="table">
+    <el-table :data="tableData" :row-class-name="tableRowClassName" :show-header="false">
+      <el-table-column prop="info" min-width="400"></el-table-column>
+      <el-table-column prop="date" min-width="100"></el-table-column>
+    </el-table>
+  </div>
 </template>
 
 <style>
@@ -17,12 +15,16 @@
 .el-table .success-row {
   background: #90dad9;
 }
+.table{
+  max-width: 800px;
+  margin:auto;
+}
 </style>
 
 <script>
 export default {
   methods: {
-    tableRowClassName({ row, rowIndex }) {
+    tableRowClassName({rowIndex }) {
       if (rowIndex === 1) {
         return "warning-row";
       } else if (rowIndex === 3) {

@@ -17,12 +17,12 @@
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item>
+            <b-nav-item disabled>
               <router-link tag="div" :to="'#'">Committee</router-link>
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item-dropdown text="Program" left>
+            <b-nav-item-dropdown disabled text="Program" left>
               <b-dropdown-item>
                 <router-link tag="div" :to="'#'">Program at a Glance</router-link>
               </b-dropdown-item>
@@ -35,12 +35,12 @@
             </b-nav-item-dropdown>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item>
+            <b-nav-item disabled>
               <router-link tag="div" :to="'#'">Call for Papers</router-link>
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item-dropdown text="Submission" left>
+            <b-nav-item-dropdown disabled text="Submission" left>
               <b-dropdown-item>
                 <router-link tag="div" :to="'#'">Final Submission</router-link>
               </b-dropdown-item>
@@ -50,12 +50,12 @@
             </b-nav-item-dropdown>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item>
+            <b-nav-item disabled>
               <router-link tag="div" :to="'#'">Registration</router-link>
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item-dropdown text="Venue" left>
+            <b-nav-item-dropdown disabled text="Venue" left>
               <b-dropdown-item>
                 <router-link tag="div" :to="'#'">Conference Venue</router-link>
               </b-dropdown-item>

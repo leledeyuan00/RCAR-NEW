@@ -9,7 +9,7 @@
       img-width="1280"
       img-height="720"
     >
-      <div v-for="img in img_list" :key="img">
+      <div v-for="(img,i) in img_list" :key="i">
         <b-carousel-slide :caption="img.msg" :img-src="img.src"></b-carousel-slide>
       </div>
     </b-carousel>

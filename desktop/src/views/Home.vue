@@ -16,7 +16,7 @@
         >RCAR 2020 Welcome. Part of video comes from youtube . Thanks to the author.</div>
       </div>
       <h4 class="pt-2 text-center">
-        Important Data
+        Important Date
         <i class="el-icon-date el-icon--right"></i>
       </h4>
       <el-row type="flex" class="row-bg" justify="space-around">

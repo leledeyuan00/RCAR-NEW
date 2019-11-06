@@ -13,14 +13,14 @@ export default {
   data() {
     return {
       logos: [
-        require("./../assets/logo/01.png"),
-        require("./../assets/logo/02.png"),
-        require("./../assets/logo/03.png"),
-        require("./../assets/logo/04.png"),
-        require("./../assets/logo/05.png"),
-        require("./../assets/logo/06.png"),
-        require("./../assets/logo/07.png"),
-        require("./../assets/logo/08.jpg")
+        require("./../../../src/icons/01.png"),
+        require("./../../../src/icons/02.png"),
+        require("./../../../src/icons/03.png"),
+        require("./../../../src/icons/04.png"),
+        require("./../../../src/icons/05.png"),
+        require("./../../../src/icons/06.png"),
+        require("./../../../src/icons/07.png"),
+        require("./../../../src/icons/08.jpg")
       ]
     };
   }

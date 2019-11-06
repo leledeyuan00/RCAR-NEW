@@ -4,7 +4,7 @@
       <b-navbar toggleable="lg" type="dark" class="background" variant="info">
         <b-navbar-brand>
           <router-link tag="div" :to="'./'">
-            <img src="./assets/logo.png" class="d-inline-block align-top" style="max-width:35px" />
+            <img src="./../../src/logo/logo.png" class="d-inline-block align-top" style="max-width:35px" />
           </router-link>
         </b-navbar-brand>
         <span class="text-white fs-xxl">IEEE RCAR 2020</span>
@@ -88,7 +88,7 @@ export default {};
 </script>
 
 <style lang="scss">
-@import "./assets/scss/_variables.scss";
+@import "./../../src/scss/_variables.scss";
 .topbar {
   position: sticky;
   top: 0;

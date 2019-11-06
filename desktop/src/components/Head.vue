@@ -1,9 +1,9 @@
 <template>
-  <div class="ai-center d-flex jc-between">
+  <div class="ai-center d-flex jc-between py-2">
     <div class="logo">
       <img :src="logo" alt="" style="max-width:300px">
     </div>
-    <span class="text text-right flex-1" style="min-width:375px">
+    <span class="text text-right flex-1" >
       <h5>
         <b>2020 IEEE International Conference on Real-time</b>
       </h5>
@@ -19,7 +19,7 @@
 export default {
   data() {
     return {
-      logo: require("./../../icon/RCAR.png")
+      logo: require("./../../../src/logo/logo-flex2.png")
     };
   }
 };

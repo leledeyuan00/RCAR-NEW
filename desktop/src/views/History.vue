@@ -37,7 +37,7 @@ export default {
             "The 2015 International Conference on Real-time Computing and Robotics (RCAR 2015)",
           location: "Changsha,China",
           time: "June 23-26, 2015",
-          img: require("./../assets/images/2015-2.png"),
+          img: require("./../../../src/images/2015-2.png"),
           assign: `img-left`
         },
         h2016: {
@@ -45,7 +45,7 @@ export default {
             "The 2016 International Conference on Real-time Computing and Robotics (RCAR 2016)",
           location: "Angkor Wat, Cambodia",
           time: "June 6-9, 2016",
-          img: require("./../assets/images/2016-2.png"),
+          img: require("./../../../src/images/2016-2.png"),
           assign: `img-left`
         },
         h2017: {
@@ -53,7 +53,7 @@ export default {
             "The 2017 International Conference on Real-time Computing and Robotics (RCAR 2017)",
           location: "Okinawa, Japan",
           time: "July 14-18, 2017",
-          img: require("./../assets/images/2017-2.png"),
+          img: require("./../../../src/images/2017-2.png"),
           assign: `img-left`
         },
         h2018: {
@@ -61,7 +61,7 @@ export default {
             "The 2018 International Conference on Real-time Computing and Robotics (RCAR 2018)",
           location: "Kandima, Maldives",
           time: "August 1-5, 2018",
-          img: require("./../assets/images/2018-2.png"),
+          img: require("./../../../src/images/2018-2.png"),
           assign: `img-left`
         },
         h2019: {
@@ -69,7 +69,7 @@ export default {
             "The 2019 International Conference on Real-time Computing and Robotics (RCAR 2019)",
           location: "Irkutsk, Russia",
           time: "August 4-9, 2019",
-          img: require("./../assets/images/2019-2.png"),
+          img: require("./../../../src/images/2019-2.png"),
           assign: `img-left`
         }
       },
@@ -83,7 +83,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/scss/_variables.scss";
+@import "./../../../src/scss/_variables.scss";
 .history-message {
   line-height: 2rem;
   font-size: map-get($font-sizes, "l") * $base-font-size;

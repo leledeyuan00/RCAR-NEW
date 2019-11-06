@@ -4,23 +4,23 @@
       <swiper-slide>
         <video
           class="w-100"
-          src="../assets/videos/video_01.mp4"
+          src="./../../../src/videos/video_01.mp4"
           autoplay="none"
           loop="loop"
           controls="controls"
         >请更新你的浏览器到最新版本</video>
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="../assets/images/01-m.png" alt />
+        <img class="w-100" height="auto" src="./../../../src/images/01-m.png" alt />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="../assets/images/02-m.png" alt />
+        <img class="w-100" height="auto" src="./../../../src/images/02-m.png" alt />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="../assets/images/03-m.png" alt />
+        <img class="w-100" height="auto" src="./../../../src/images/03-m.png" alt />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="../assets/images/04-m.png" alt />
+        <img class="w-100" height="auto" src="./../../../src/images/04-m.png" alt />
       </swiper-slide>
     </swiper>
   </div>
@@ -36,11 +36,6 @@ export default {
     swiper,
     swiperSlide
   },
-  data(){
-    return{
-      video1 : require("../assets/videos/video_01.mp4")
-    }
-  }
 };
 </script>
 

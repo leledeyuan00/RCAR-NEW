@@ -1,17 +1,16 @@
 $colors: (
-  "main-1": #90dad9,
-  "main-2": #3e99c9,
-  "main-3": #1f3695,
-  "main-4": #f3f7d2,
-  "light-1": #90dad9,
+  "main-1":#90DAD9,
+  "main-2":#3E99C9,
+  "main-3":#1f3695,
+  "main-4": #F3F7D2,
+  "light-1":#90DAD9,
   "grey": rgb(226, 226, 226),
   "grey-1": #666,
-  "main-5": #234d69,
-  "main-6": #152d3e,
-  "black": #000,
-  "red": red
+  "main-5": #234D69,
+  "main-6": #152D3E,
+  "black": #000
 );
-$border-color: map-get($colors, "grey");
+$border-color: map-get($colors, "grey" );
 // font-size
 $base-font-size: 1rem;
 
@@ -22,10 +21,10 @@ $font-sizes: (
   m: 1,
   l: 1.0769,
   xl: 1.2308,
-  xxl: 1.3846,
-  xxxl: 1.5385
+  xxl:1.3846,
+  xxxl: 1.5385,
 );
-$font-weights: (
+$font-weights:(
   xxs: 100,
   xs: 200,
   s: 300,
@@ -33,7 +32,7 @@ $font-weights: (
   l: 500,
   xl: 600,
   xxl: bold,
-  xxxl: bolder
+  xxxl: bolder,
 );
 
 $flex-jc: (

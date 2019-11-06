@@ -5,7 +5,7 @@
       <div class>
         <video
           class="pt-4"
-          src="./../../pict/video_01.mp4"
+          src="./../../../src/videos/video_01.mp4"
           autoplay="none"
           loop="loop"
           controls="controls"
@@ -16,7 +16,7 @@
         >RCAR 2020 Welcome. Part of video comes from youtube . Thanks to the author.</div>
       </div>
       <h4 class="pt-2 text-center">
-        Important Date
+        Important Dates
         <i class="el-icon-date el-icon--right"></i>
       </h4>
       <el-row type="flex" class="row-bg" justify="space-around">
@@ -55,11 +55,6 @@ export default {
     TimeTable,
     SchoolBadge
   },
-  data() {
-    return {
-      logo_url: require("./../../icon/committee_logo2.png")
-    };
-  }
 };
 </script>
 

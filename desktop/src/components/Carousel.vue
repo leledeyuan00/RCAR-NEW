@@ -23,13 +23,13 @@ export default {
   data() {
     return {
       img_list: [
-        { src: require("./../../pict/01.png"),
+        { src: require("./../../../src/images/01.png"),
         msg:""},
-        { src: require("./../../pict/02.png"),
+        { src: require("./../../../src/images/02.png"),
         msg:"" },
-        { src: require("./../../pict/03.png"),
+        { src: require("./../../../src/images/03.png"),
         msg:"" },
-        { src: require("./../../pict/04.png"),
+        { src: require("./../../../src/images/04.png"),
         msg:"" }
       ]
     };

@@ -7,7 +7,7 @@
       </colgroup>
       <b-thead class="bg-main-1">
         <b-tr>
-          <b-th class="text-center fs-xl" colspan="7">Important Time<i class="el-icon-date pl-2"></i></b-th>
+          <b-th class="text-center fs-xl" colspan="7">Important Date<i class="el-icon-date pl-2"></i></b-th>
         </b-tr>
       </b-thead>
       <b-tbody class="fs-xl">

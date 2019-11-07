@@ -4,44 +4,41 @@
     mode="horizontal"
     background-color="#3E99C9"
     text-color="#FFF"
+    router
   >
-    <el-menu-item index="1">
+    <el-menu-item index="./">
       <template slot="title">
-        <router-link tag="div" :to="'./'">
-          <p class="el-icon-house pt-2"></p>Home
-        </router-link>
+        <p class="el-icon-house pt-2"></p>Home
       </template>
     </el-menu-item>
-    <el-menu-item disabled index="2">
+    <el-menu-item index="./committee">
       <template slot="title">Committee</template>
     </el-menu-item>
-    <el-submenu disabled index="3">
+    <el-submenu  index="2">
       <template slot="title">Program</template>
-      <el-menu-item index="3-1">Program at a Glance</el-menu-item>
-      <el-menu-item index="3-2">Invited Speakers</el-menu-item>
-      <el-menu-item index="3-3">Tutorials & Workshops</el-menu-item>
+      <el-menu-item index="./Program">Program at a Glance</el-menu-item>
+      <el-menu-item index="./InvitedSpeakers">Invited Speakers</el-menu-item>
+      <el-menu-item index="./Tutorials">Tutorials & Workshops</el-menu-item>
     </el-submenu>
-    <el-menu-item disabled index="4">
+    <el-menu-item  index="./CallforPapers">
       <template slot="title">Call for Papers</template>
     </el-menu-item>
-    <el-submenu disabled index="5">
+    <el-submenu  index="3">
       <template slot="title">Submission</template>
-      <el-menu-item index="5-1">Final Submission</el-menu-item>
-      <el-menu-item index="5-2">Initial Submission</el-menu-item>
+      <el-menu-item index="./FinalSubmission">Final Submission</el-menu-item>
+      <el-menu-item index="./InitialSubmission">Initial Submission</el-menu-item>
     </el-submenu>
-    <el-menu-item disabled index="6">
+    <el-menu-item  index="./Registration">
       <template slot="title">Registration</template>
     </el-menu-item>
-    <el-submenu disabled index="7">
+    <el-submenu  index="4">
       <template slot="title">Venue</template>
-      <el-menu-item index="7-1">Conference Venue</el-menu-item>
-      <el-menu-item index="7-2">Accommodation</el-menu-item>
-      <el-menu-item index="7-3">About Asahikawa</el-menu-item>
+      <el-menu-item index="./ConferenceVenue">Conference Venue</el-menu-item>
+      <el-menu-item index="./Accommodation">Accommodation</el-menu-item>
+      <el-menu-item index="./AboutAsahikawa">About Asahikawa</el-menu-item>
     </el-submenu>
-    <el-menu-item index="8">
-      <template slot="title">
-        <router-link tag="div" :to="'./history'">History</router-link>
-      </template>
+    <el-menu-item index="./history">
+      <template slot="title">History</template>
     </el-menu-item>
     <!-- <el-menu-item index="3" disabled>消息中心</el-menu-item>
     <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>-->
@@ -52,8 +49,19 @@
 export default {
   data() {
     return {
-      activeIndex2: "1"
+      activeIndex2: "1",
+      articles: []
     };
+  },
+  methods: {
+    async fetchArticles() {
+      const res = await this.$http.get("articles");
+      this.articles = res.data;
+      console.log(this.articles);
+    }
+  },
+  created() {
+    this.fetchArticles();
   }
 };
 </script>

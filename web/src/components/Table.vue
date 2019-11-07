@@ -7,7 +7,10 @@
       </colgroup>
       <b-thead class="bg-main-1">
         <b-tr>
-          <b-th class="text-center fs-xl" colspan="7">Important Date<i class="el-icon-date pl-2"></i></b-th>
+          <b-th class="text-center fs-xl" colspan="7">
+            Important Date
+            <i class="el-icon-date pl-2"></i>
+          </b-th>
         </b-tr>
       </b-thead>
       <b-tbody class="fs-xl">
@@ -16,7 +19,11 @@
           <b-th class="text-center fw-s">Dec.31,2019</b-th>
         </b-tr>
         <b-tr class="bg-light">
-          <b-th colspan="4" class="text-left fw-s" rowspan="1">Submission of organized session/workshop</b-th>
+          <b-th
+            colspan="4"
+            class="text-left fw-s"
+            rowspan="1"
+          >Submission of organized session/workshop</b-th>
           <b-th class="text-center fw-s">Dec.31,2019</b-th>
         </b-tr>
         <b-tr class="bg-light">
@@ -37,6 +44,5 @@
 </template>
 
 <script>
-export default {
-};
+export default {};
 </script>

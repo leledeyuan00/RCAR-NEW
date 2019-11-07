@@ -18,6 +18,12 @@ if (process.env.NODE_ENV === "production") {
   })();
 }
 
+//http接口请求 i axios 用于接口请求
+import axios from 'axios'
+Vue.prototype.$http = axios.create({
+  baseURL: process.env.VUE_APP_API_URL || 'web/api'
+})
+
 new Vue({
   router,
   render: h => h(App)

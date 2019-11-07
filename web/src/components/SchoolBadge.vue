@@ -1,10 +1,10 @@
 <template>
-<div class="text-center bg-white py-3">
-  <div class="d-flex jc-around ai-center " style="max-width:800px; margin:auto ;">
-    <div v-for="logo in logos" :key="logo">
-      <img :src="logo" alt style="max-height:30px"/>
+  <div class="text-center bg-white py-3">
+    <div class="d-flex jc-around ai-center" style="max-width:800px; margin:auto ;">
+      <div v-for="logo in logos" :key="logo">
+        <img :src="logo" alt style="max-height:30px" />
+      </div>
     </div>
-  </div>
   </div>
 </template>
 

@@ -2,8 +2,12 @@ const express = require("express");
 
 const app = express();
 
-require('./routes/admin')(app)
+app.use(require('cors')())
+app.use(express.json())
 
+require('./routes/admin')(app)
+require('./routes/web')(app)
+require('./plugins/db')(app)
 
 app.use('/',express.static(__dirname + '/desktop'))
 app.use('/mobile',express.static(__dirname + '/mobile'))

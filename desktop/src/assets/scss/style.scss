@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 // reset
 * {
@@ -20,15 +20,14 @@ body {
 }
 
 a {
-  color: map-get($colors, "black" );
+  color: map-get($colors, "black");
 }
 
-p{
+p {
   line-height: 1.5em;
 }
 
 // colors
-
 
 @each $colorKey, $color in $colors {
   .text-#{$colorKey} {
@@ -42,11 +41,9 @@ p{
 
 @each $var in (left, center, right) {
   .text-#{$var} {
-    text-align: $var !important; 
+    text-align: $var !important;
   }
 }
-
-
 
 @each $sizeKey, $size in $font-sizes {
   .fs-#{$sizeKey} {
@@ -60,9 +57,9 @@ p{
   }
 }
 // text overflow
-.text-ellipsis{
-  display:inline-block;
-  overflow:hidden;
+.text-ellipsis {
+  display: inline-block;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -84,13 +81,11 @@ p{
   flex-wrap: wrap;
 }
 
-
 @each $key, $value in $flex-jc {
   .jc-#{$key} {
     justify-content: $value;
   }
 }
-
 
 @each $key, $value in $flex-ai {
   .ai-#{$key} {
@@ -104,7 +99,6 @@ p{
 .flex-grow-1 {
   flex-grow: 1;
 }
-
 
 @each $typeKey, $type in $spacing-types {
   // .m-1
@@ -148,29 +142,28 @@ p{
     border-bottom: 3px solid transparent;
     padding-bottom: 0.2rem;
     &.active {
-      color:map-get($colors, "primary");
+      color: map-get($colors, "primary");
       border-bottom: 3px solid map-get($colors, "primary");
     }
   }
-  &.nav-inverse{
-    .nav-item{
-      color:map-get($colors, "white" );
-      &.active{
-        border-bottom-color: map-get($colors, "white" )
+  &.nav-inverse {
+    .nav-item {
+      color: map-get($colors, "white");
+      &.active {
+        border-bottom-color: map-get($colors, "white");
       }
     }
   }
 }
 
-
 // boders
-@each $dir in (top,right,bottom,left){
-  .border-#{$dir}{
-    border-#{$dir}: 1px solid $border-color
+@each $dir in (top, right, bottom, left) {
+  .border-#{$dir} {
+    border-#{$dir}: 1px solid $border-color;
   }
 }
 
-.border-body{
+.border-body {
   border-left: 1px solid $border-color;
   border-right: 1px solid $border-color;
   border-bottom: 1px solid $border-color;
@@ -179,7 +172,7 @@ p{
 }
 
 //heading
-.head-bar{
+.head-bar {
   border-bottom-color: rgb(222, 226, 230);
   border-bottom-style: solid;
   border-bottom-width: 2px;
@@ -192,7 +185,12 @@ p{
   text-align: center;
   height: 36px;
   padding: 9.75px;
-  font-size: map-get($font-sizes,"xl")* $base-font-size;
-  font-weight: map-get($font-weights, "xl" );
+  font-size: map-get($font-sizes, "xl") * $base-font-size;
+  font-weight: map-get($font-weights, "xl");
   background-color: map-get($colors, "main-1");
+}
+
+.body-main {
+  max-width: 1366px;
+  margin: auto;
 }

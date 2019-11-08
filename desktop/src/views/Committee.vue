@@ -1,12 +1,6 @@
 <template>
   <div>
-    <h1>{{title}}</h1>
-    <h1>{{this.$route.query.id}}</h1>
-    <div >
-
-    </div>
-
-    
+    <div v-html="models[0].submenus[0].body" class="body-main text-center px-3 bg-white fs-lg"></div>
   </div>
 </template>
 

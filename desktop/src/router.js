@@ -24,11 +24,36 @@ const router = new Router({
           component: () =>
             import(/* webpackChunkName: "about" */ "./views/History.vue")
         },
+        { path: "/committee", // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "./views/Committee.vue"), props:true},
+        { path: "/program", // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "./views/Program.vue"), props:true},
+        { path: "/invited", // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "./views/Invited.vue"), props:true},
+        { path: "/tutorials", // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "./views/Tutorial.vue"), props:true},
         { path: "/:title", name: "articles", // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
-          import(/* webpackChunkName: "about" */ "./views/Article.vue"), props:true}
+          import(/* webpackChunkName: "about" */ "./views/Article.vue"), props:true},
+          { path: "/:title", name: "articles", // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "./views/Article.vue"), props:true},
       ]
     }
   ]

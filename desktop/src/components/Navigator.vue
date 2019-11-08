@@ -17,7 +17,7 @@
     <el-submenu  index="2">
       <template slot="title">Program</template>
       <el-menu-item index="./Program">Program at a Glance</el-menu-item>
-      <el-menu-item index="./InvitedSpeakers">Invited Speakers</el-menu-item>
+      <el-menu-item index="./Invited">Invited Speakers</el-menu-item>
       <el-menu-item index="./Tutorials">Tutorials & Workshops</el-menu-item>
     </el-submenu>
     <el-menu-item  index="./CallforPapers">

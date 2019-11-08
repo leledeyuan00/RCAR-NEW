@@ -1,5 +1,5 @@
 <template>
-  <div class="history border-body">
+  <div class="body-main border-body">
     <div v-for="(info,i) in history_info" :key="i">
       <b-card id :img-src="info.img" img-right>
         <b-card-text class="fw-xl fs-l">{{info.head}}</b-card-text>
@@ -87,10 +87,6 @@ export default {
 .history-message {
   line-height: 2rem;
   font-size: map-get($font-sizes, "l") * $base-font-size;
-}
-.history {
-  max-width: 1366px;
-  margin: auto;
 }
 .SchoolBadge {
   border-radius: 3px;

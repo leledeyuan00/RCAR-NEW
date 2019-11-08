@@ -79,9 +79,9 @@ export default {
         name: [],
         body: [],
         submenus: [],
-        ismenu: [],
-        isenable: [],
-        islocked: []
+        ismenu: false,
+        isdisable: false,
+        islocked: false,
       }
     };
   },

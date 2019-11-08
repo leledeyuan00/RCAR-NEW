@@ -1,7 +1,7 @@
 <template>
   <el-container style="height: 100vh; border: 1px solid #eee">
-    <el-aside width="300px" style="background-color: rgb(238, 241, 246)">
-      <el-menu router :default-openeds="['1', '3']">
+    <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
+      <el-menu router :default-openeds="['1', '2']">
         <el-submenu index="1">
           <template slot="title">
             <i class="el-icon-message"></i>内容管理
@@ -46,7 +46,8 @@
           <template slot="title">
             <i class="el-icon-setting"></i>系统管理
           </template>
-          <el-menu-item index="2-1">账号管理</el-menu-item>
+          <el-menu-item index="/admin_users/create">新建管理员</el-menu-item>
+            <el-menu-item index="/admin_users/list">管理员列表</el-menu-item>
         </el-submenu>
       </el-menu>
     </el-aside>

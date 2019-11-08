@@ -16,17 +16,17 @@
         <el-checkbox v-model="model.isdisable" border>Disable</el-checkbox>
       </span>
       <span style="margin-right:2rem; margin-left:2rem">
-              <el-button
-                size="large"
-                type="info"
-                @click="model.submenus.push({})"
-                :disabled="model.islocked || model.ismenu"
-              >
-                <i class="el-icon-plus"></i> View
-              </el-button>
-            </span>
+        <el-button
+          size="large"
+          type="info"
+          @click="model.submenus.push({})"
+          :disabled="model.islocked || model.ismenu"
+        >
+          <i class="el-icon-plus"></i> View
+        </el-button>
+      </span>
       <!-- body段 -->
-      <el-tabs value type="border-card" style="margin-left:7rem; margin-top:2rem">
+      <el-tabs type="border-card" style="margin-left:7rem; margin-top:2rem">
         <el-tab-pane
           :label="item.name?item.name: `NewView`"
           :name="i"
@@ -38,14 +38,14 @@
           </el-form-item>
           <el-form-item label="内容">
             <vue-editor
+              id="editor"
               v-model="item.body"
               useCustomImageHandler
-              @imageAdded="handleImageAdded"
+              @image-added="handleImageAdded"
               style="height:100%"
             ></vue-editor>
           </el-form-item>
           <el-form-item>
-            
             <el-button
               size="small"
               type="danger"
@@ -65,7 +65,7 @@
 
 <script>
 import { VueEditor } from "vue2-editor";
-
+// import axios from "axios";
 export default {
   props: {
     id: {}
@@ -81,7 +81,7 @@ export default {
         submenus: [],
         ismenu: false,
         isdisable: false,
-        islocked: false,
+        islocked: false
       }
     };
   },
@@ -90,15 +90,18 @@ export default {
       const formData = new FormData();
       formData.append("file", file);
       const res = await this.$http.post("upload", formData);
+      console.log(123);
+      console.log(res.data.url);
       Editor.insertEmbed(cursorLocation, "image", res.data.url);
+      // Editor.insertEmbed(cursorLocation, "image", res.data.url);
       resetUploader();
     },
     async save() {
       let res;
       if (this.id) {
-        res = await this.$http.put(`articles/${this.id}`, this.model);
+        res = await this.$http.put(`rest/articles/${this.id}`, this.model);
       } else {
-        res = await this.$http.post("articles", this.model);
+        res = await this.$http.post("rest/articles", this.model);
       }
       this.$router.push("/articles/list");
       this.$message({
@@ -108,7 +111,7 @@ export default {
       console(res);
     },
     async fetch() {
-      const res = await this.$http.get(`articles/${this.id}`);
+      const res = await this.$http.get(`rest/articles/${this.id}`);
       this.model = res.data;
     }
   },

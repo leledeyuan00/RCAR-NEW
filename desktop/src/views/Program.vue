@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div v-html="models[1].submenus[0].body" class="body-main text-center px-3 bg-white fs-lg"></div>
-
-    
+    <div class="ql-container ql-snow">
+      <div class="ql-editor body-main px-3 bg-white fs-xxl" v-html="models[1].submenus[0].body"></div>
+    </div>
   </div>
 </template>
 
@@ -10,13 +10,12 @@
 export default {
   props: {
     title: {},
-    id:{},
   },
   data() {
     return {
       models: {
-        submenus:{}
-      },
+        submenus: {}
+      }
     };
   },
   methods: {

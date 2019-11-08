@@ -1,22 +1,21 @@
 <template>
   <div>
-<div v-html="models[1].submenus[1].body" class="body-main text-center px-3 bg-white fs-lg"></div>
-
-    
+    <div class="ql-container ql-snow">
+      <div class="ql-editor body-main px-3 bg-white fs-xxl" v-html="models[1].submenus[1].body"></div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    title: {},
-    id:{},
+    title: {}
   },
   data() {
     return {
       models: {
-        submenus:{}
-      },
+        submenus: {}
+      }
     };
   },
   methods: {

@@ -1,24 +1,17 @@
 <template>
-  <div>
-    <h1>{{title}}</h1>
-    <h1>{{this.$route.query.id}}</h1>
-    <div >
-
-    </div>
-
-    
+  <div class="text-center fs-xxl fw-xxl pt-5">
+    <h1>{{title}} Page is Coming Soon</h1>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    title: {},
-    id:{},
+    title: {}
   },
   data() {
     return {
-      models: {},
+      models: {}
     };
   },
   methods: {

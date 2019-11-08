@@ -46,7 +46,7 @@ module.exports = app => {
   const resourceMiddleware = require("../../middleware/resource");
   app.use(
     "/admin/api/rest/:resource",
-    // authMiddleware(),
+    authMiddleware(),
     resourceMiddleware(),
     router
   );

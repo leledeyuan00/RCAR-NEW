@@ -14,7 +14,9 @@ export default {
   },
   data() {
     return {
-      models: {},
+      models: {
+        submenus:{}
+      },
     };
   },
   methods: {

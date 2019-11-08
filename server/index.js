@@ -9,6 +9,7 @@ require('./routes/admin')(app)
 require('./routes/web')(app)
 require('./plugins/db')(app)
 
+app.use('/admin', express.static(__dirname + '/admin'))
 app.use('/',express.static(__dirname + '/desktop'))
 app.use('/mobile',express.static(__dirname + '/mobile'))
 

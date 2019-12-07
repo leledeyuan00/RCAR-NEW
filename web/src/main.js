@@ -12,6 +12,10 @@ Vue.use(BootstrapVue);
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 
+import 'quill/dist/quill.bubble.css'
+import 'quill/dist/quill.core.css'
+import 'quill/dist/quill.snow.css'
+
 import "./assets/scss/style.scss";
 
 //use swiper
@@ -25,6 +29,13 @@ if (process.env.NODE_ENV === "production") {
     s.parentNode.insertBefore(hm, s);
   })();
 }
+
+//http接口请求 i axios 用于接口请求
+import axios from 'axios'
+Vue.prototype.$http = axios.create({
+  // baseURL: process.env.VUE_APP_API_URL || 'web/api'
+  baseURL: 'http://www.ieee-rcar.com/web/api'
+})
 
 Vue.config.productionTip = false;
 

@@ -20,7 +20,7 @@
       <el-menu-item index="./Invited">Invited Speakers</el-menu-item>
       <el-menu-item index="./Tutorials">Tutorials & Workshops</el-menu-item>
     </el-submenu>
-    <el-menu-item  index="./CallforPapers">
+    <el-menu-item  index="./CallForPapers">
       <template slot="title">Call for Papers</template>
     </el-menu-item>
     <el-submenu  index="3">

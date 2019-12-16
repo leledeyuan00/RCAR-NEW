@@ -1,9 +1,8 @@
 <template>
   <div class="body-main">
     <div class="ql-container ql-snow">
-      <div class="d-flex jc-between">
-        <div class="ql-editor px-3 bg-white fs-xxl left-part" v-html="models[3].submenus[0].body"></div>
-        <div class="ql-editor px-3 bg-white fs-xxl right-part" v-html="models[3].submenus[1].body"></div>
+      <div>
+        <div class="ql-editor px-3 bg-white fs-xxl" v-html="models[3].submenus[0].body"></div>
       </div>
     </div>
     <div class="SchoolBadge">

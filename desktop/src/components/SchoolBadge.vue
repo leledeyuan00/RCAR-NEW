@@ -20,7 +20,9 @@ export default {
         require("./../../../src/icons/05.png"),
         require("./../../../src/icons/06.png"),
         require("./../../../src/icons/07.png"),
-        require("./../../../src/icons/08.jpg")
+        require("./../../../src/icons/08.jpg"),
+        require("./../../../src/icons/09.jpg"),
+        require("./../../../src/icons/10.jpg")
       ]
     };
   }

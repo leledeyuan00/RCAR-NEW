@@ -69,7 +69,6 @@ export default {
           assign: `img-left`
         }
       },
-      logo_url: require("./../../icon/committee_logo2.png")
     };
   },
 };

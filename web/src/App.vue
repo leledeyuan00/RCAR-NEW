@@ -80,11 +80,19 @@
       style="margin:auto; height:25px"
     >August 2-6, 2020, Asahikawa, Japan</div>
     <router-view />
+    <div class="SchoolBadge">
+      <SchoolBadge />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import SchoolBadge from "./components/SchoolBadge";
+export default {
+  components: {
+    SchoolBadge
+  }
+};
 </script>
 
 <style lang="scss">

@@ -21,14 +21,10 @@
         </div>
       </b-card>
     </div>
-    <div class="SchoolBadge">
-      <SchoolBadge />
-    </div>
   </div>
 </template>
 
 <script>
-import SchoolBadge from "./../components/SchoolBadge";
 import Vue from "vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
@@ -76,9 +72,6 @@ export default {
       }
     };
   },
-  components: {
-    SchoolBadge
-  }
 };
 </script>
 

@@ -59,7 +59,8 @@ module.exports = app => {
     upload.single("file"),
     async (req, res) => {
       const file = req.file;
-      file.url = `www.ieee-rcar.com/${file.filename}`
+      file.url = `www.ieee-rcar.com/uploads/${file.filename}`
+      // file.url = process.env.VUE_APP_API_URL || `uploads/${file.filename}`
       res.send(file);
     }
   );

@@ -5,18 +5,11 @@
       v-html="models[0].submenus[0].body">
       </div>
     </div>
-    <div class="SchoolBadge">
-        <SchoolBadge />
-    </div>
   </div>
 </template>
 
 <script>
-import SchoolBadge from "./../components/SchoolBadge.vue";
 export default {
-  components: {
-    SchoolBadge
-  },
   props: {
     title: {},
   },

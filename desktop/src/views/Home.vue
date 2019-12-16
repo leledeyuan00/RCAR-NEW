@@ -34,7 +34,6 @@
       <div class="msg bg-white px-2">
         <Body />
       </div>
-      <SchoolBadge />
     </div>
   </div>
 </template>
@@ -44,7 +43,6 @@ import Vue from "vue";
 import Carousel from "./../components/Carousel.vue";
 import Body from "./../components/Body.vue";
 import TimeTable from "./../components/TimeTable.vue";
-import SchoolBadge from "./../components/SchoolBadge.vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
 export default {
@@ -53,7 +51,6 @@ export default {
     Carousel,
     Body,
     TimeTable,
-    SchoolBadge
   },
 };
 </script>

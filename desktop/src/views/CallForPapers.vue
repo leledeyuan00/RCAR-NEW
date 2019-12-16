@@ -2,23 +2,19 @@
   <div class="body-main">
     <div class="ql-container ql-snow">
       <div>
-        <div class="ql-editor px-3 bg-white fs-xxl" v-html="models[3].submenus[0].body"></div>
+        <div
+          class="ql-editor px-3 bg-white fs-xxl"
+          v-html="models[3].submenus[0].body"
+        ></div>
       </div>
     </div>
-    <div class="SchoolBadge">
-      <SchoolBadge />
-    </div>
   </div>
-</template >
+</template>
 
 <script>
-import SchoolBadge from "./../components/SchoolBadge.vue";
 export default {
-  components: {
-    SchoolBadge
-  },
   props: {
-    title: {},
+    title: {}
   },
   data() {
     return {
@@ -41,18 +37,4 @@ export default {
 </script>
 
 <style>
-.left-part{
-  width: 66.6666667%;
-  position: relative;
-  margin-right: 5px;
-  display:inline;
-  border-radius: 2px;
-}
-.right-part{
-  width: 30%;
-  position: relative;
-  margin-left: 5px;
-  display:inline;
-  border-radius: 2px;
-}
 </style>

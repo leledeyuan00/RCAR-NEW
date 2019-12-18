@@ -12,7 +12,7 @@
         <p class="el-icon-house pt-2"></p>Home
       </template>
     </el-menu-item>
-    <el-menu-item index="./committee">
+    <el-menu-item index="./Committee">
       <template slot="title">Committee</template>
     </el-menu-item>
     <el-submenu  index="2">

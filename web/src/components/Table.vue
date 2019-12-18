@@ -15,7 +15,11 @@
       </b-thead>
       <b-tbody class="fs-xl">
         <b-tr class="bg-light">
-          <b-th colspan="4" class="text-left fw-s" rowspan="1">Submission of papers</b-th>
+          <b-th colspan="4" class="text-left fw-s" rowspan="1">
+            <router-link :to="'./InitialSubmission'">
+              Submission of papers
+            </router-link>
+            </b-th>
           <b-th class="text-center fw-s">Dec.31,2019</b-th>
         </b-tr>
         <b-tr class="bg-light">
@@ -31,7 +35,11 @@
           <b-th class="text-center fw-s">Feb.20,2020</b-th>
         </b-tr>
         <b-tr class="bg-light">
-          <b-th colspan="4" class="text-left fw-s" rowspan="1">Final paper submission</b-th>
+          <b-th colspan="4" class="text-left fw-s" rowspan="1">
+            <router-link :to="'./FinalSubmission'">
+              Final paper submission
+            </router-link>
+            </b-th>
           <b-th class="text-center fw-s">Mar.20,2020</b-th>
         </b-tr>
         <b-tr class="bg-light">

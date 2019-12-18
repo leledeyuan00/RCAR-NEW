@@ -4,6 +4,7 @@
     mode="horizontal"
     background-color="#3E99C9"
     text-color="#FFF"
+    active-text-color="#000"
     router
   >
     <el-menu-item index="./">
@@ -25,8 +26,8 @@
     </el-menu-item>
     <el-submenu  index="3">
       <template slot="title">Submission</template>
-      <el-menu-item index="./FinalSubmission">Final Submission</el-menu-item>
       <el-menu-item index="./InitialSubmission">Initial Submission</el-menu-item>
+      <el-menu-item index="./FinalSubmission">Final Submission</el-menu-item>
     </el-submenu>
     <el-menu-item  index="./Registration">
       <template slot="title">Registration</template>

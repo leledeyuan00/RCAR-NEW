@@ -89,7 +89,9 @@ router.beforeEach((to, from, next) => {
           mobile:
             !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
           ios: !!u.match(/i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
-          android: u.indexOf("Android") > -1 || u.indexOf("Linux") > -1, //android终端或者uc浏览器
+          android: u.indexOf("Android") > -1 , //android终端或者uc浏览器
+          // android: u.indexOf("Android") > -1 || u.indexOf("Linux") > -1, //android终端或者uc浏览器
+          linux: u.indexOf("Linux") > -1,
           iPhone:
             u.indexOf("iPhone") > -1 ||
             (u.indexOf("Mac") > -1 && u.indexOf("Macintosh") < 0), //是否为iPhone或者QQHD浏览器

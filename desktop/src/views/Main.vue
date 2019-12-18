@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="Header bg-white px-5">
-      <Head />
+      <router-link tag="div" :to="'./'">
+        <Head />
+      </router-link>
     </div>
     <Navigator />
     <router-view/>

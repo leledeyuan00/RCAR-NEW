@@ -42,10 +42,10 @@
           <b-navbar-nav class="m-auto">
             <b-nav-item-dropdown text="Submission" left>
               <b-dropdown-item>
-                <router-link tag="div" :to="'./FinalSubmission'">Final Submission</router-link>
+                <router-link tag="div" :to="'./InitialSubmission'">Initial Submission</router-link>
               </b-dropdown-item>
               <b-dropdown-item>
-                <router-link tag="div" :to="'./InitialSubmission'">Initial Submission</router-link>
+                <router-link tag="div" :to="'./FinalSubmission'">Final Submission</router-link>
               </b-dropdown-item>
             </b-nav-item-dropdown>
           </b-navbar-nav>

@@ -12,6 +12,13 @@
             <span class="fw-xl pr-2">Time:</span>
             <span>{{info.time}}</span>
           </div>
+          <div>
+              <span class="fw-xl pr-2">Website:</span>
+              <span v-if="info.web_valid">
+                <a :href=info.web target="_blank" rel="noopener">{{info.web}}</a>
+              </span>
+              <span v-else class="text-grey-1" style="text-decoration:line-through">{{info.web}}</span>
+          </div>
         </div>
       </b-card>
     </div>
@@ -34,6 +41,8 @@ export default {
           location: "Changsha,China",
           time: "June 23-26, 2015",
           img: require("./../../../src/images/2015-2.png"),
+          web: "http://www.rcar2015.org",
+          web_valid: false,
           assign: `img-left`
         },
         h2016: {
@@ -42,6 +51,8 @@ export default {
           location: "Angkor Wat, Cambodia",
           time: "June 6-9, 2016",
           img: require("./../../../src/images/2016-2.png"),
+          web: "http://robotics.sjtu.edu.cn/RCAR/",
+          web_valid: true,
           assign: `img-left`
         },
         h2017: {
@@ -50,6 +61,8 @@ export default {
           location: "Okinawa, Japan",
           time: "July 14-18, 2017",
           img: require("./../../../src/images/2017-2.png"),
+          web: "http://robotics.sjtu.edu.cn/RCAR2017/",
+          web_valid: true,
           assign: `img-left`
         },
         h2018: {
@@ -58,6 +71,8 @@ export default {
           location: "Kandima, Maldives",
           time: "August 1-5, 2018",
           img: require("./../../../src/images/2018-2.png"),
+          web: "http://robotics.sjtu.edu.cn/RCAR2018/",
+          web_valid: true,
           assign: `img-left`
         },
         h2019: {
@@ -66,6 +81,8 @@ export default {
           location: "Irkutsk, Russia",
           time: "August 4-9, 2019",
           img: require("./../../../src/images/2019-2.png"),
+          web: "http://rcar2019.bigsmilelab.ac.cn/",
+          web_valid: true,
           assign: `img-left`
         }
       },

@@ -43,20 +43,20 @@ export default {
     return {
       tableData: [
         {
-          date: "Dec.31,2019",
+          date: "Jan.31,2020",
           info: "Submission of papers",
           url: "./InitialSubmission"
         },
         {
-          date: "Dec.31,2019",
+          date: "Jan.31,2020",
           info: "Submission of organized session/workshop",
         },
         {
-          date: "Feb.20,2020",
+          date: "Mar.20,2020",
           info: "Notificationof acceptance",
         },
         {
-          date: "Mar.20,2020",
+          date: "Apr.20,2020",
           info: "Final paper submission",
           url: "./FinalSubmission"
         },

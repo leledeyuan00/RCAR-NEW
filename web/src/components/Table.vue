@@ -20,7 +20,7 @@
               Submission of papers
             </router-link>
             </b-th>
-          <b-th class="text-center fw-s">Dec.31,2019</b-th>
+          <b-th class="text-center fw-s">Jan.31,2020</b-th>
         </b-tr>
         <b-tr class="bg-light">
           <b-th
@@ -28,11 +28,11 @@
             class="text-left fw-s"
             rowspan="1"
           >Submission of organized session/workshop</b-th>
-          <b-th class="text-center fw-s">Dec.31,2019</b-th>
+          <b-th class="text-center fw-s">Jan.31,2020</b-th>
         </b-tr>
         <b-tr class="bg-light">
           <b-th colspan="4" class="text-left fw-s" rowspan="1">Notificationof acceptance</b-th>
-          <b-th class="text-center fw-s">Feb.20,2020</b-th>
+          <b-th class="text-center fw-s">Mar.20,2020</b-th>
         </b-tr>
         <b-tr class="bg-light">
           <b-th colspan="4" class="text-left fw-s" rowspan="1">
@@ -40,7 +40,7 @@
               Final paper submission
             </router-link>
             </b-th>
-          <b-th class="text-center fw-s">Mar.20,2020</b-th>
+          <b-th class="text-center fw-s">Apr.20,2020</b-th>
         </b-tr>
         <b-tr class="bg-light">
           <b-th colspan="4" class="text-left fw-s" rowspan="1">Early bird registration</b-th>

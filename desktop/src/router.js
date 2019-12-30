@@ -8,7 +8,13 @@ const router = new Router({
     {
       path: "/",
       component: Main,
-      
+      name: "main",
+      meta: {
+        title: 'RCAR 2020 - Conference on Real-time Computing and Robotics - IEEE Robotics and Automation Society',
+        Description: 'The 2020 IEEE International Conference on Real-time Computing and Robotics (IEEE RCAR 2020) will take place from August 2 to 6, 2020 in Asahikawa, Japan. The objective of this conference is to provide a forum for researchers in robotics and real-time computing to share the latest results and to explore the opportunity of research collaboration. With wide applications of robots in industry and services sectors, real-time computing plays one of the major roles in various topics in robotics including real-time control, human-robot interactions, sensor perception and fusion, robot intelligence, etc. The scope of IEEE RCAR 2020 covers research, development and applications in the dynamic and exciting areas of real-time computing and robotics.',
+        Keywords: 'IEEE, RCAR, Robot, robotic, conference, automation, society, www.ieee-rcar.org, ieee-rcar',
+      },
+
       children: [
         {
           path: "/",
@@ -24,51 +30,69 @@ const router = new Router({
           component: () =>
             import(/* webpackChunkName: "about" */ "./views/History.vue")
         },
-        { path: "/Committee", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/Committee.vue"), props:true},
-        { path: "/program", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/Program.vue"), props:true},
-        { path: "/FinalSubmission", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/FinalSubmission.vue"), props:true},
-        { path: "/InitialSubmission", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/InitialSubmission.vue"), props:true},
-        { path: "/CallForPapers", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/CallForPapers.vue"), props:true},
-        { path: "/invited", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/Invited.vue"), props:true},
-        { path: "/tutorials", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/Tutorial.vue"), props:true},
-        { path: "/:title", name: "articles", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/Article.vue"), props:true},
-          { path: "/:title", name: "articles", // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-          import(/* webpackChunkName: "about" */ "./views/Article.vue"), props:true},
+        {
+          path: "/Committee", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/Committee.vue"), props: true
+        },
+        {
+          path: "/program", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/Program.vue"), props: true
+        },
+        {
+          path: "/FinalSubmission", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/FinalSubmission.vue"), props: true
+        },
+        {
+          path: "/InitialSubmission", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/InitialSubmission.vue"), props: true
+        },
+        {
+          path: "/CallForPapers", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/CallForPapers.vue"), props: true
+        },
+        {
+          path: "/invited", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/Invited.vue"), props: true
+        },
+        {
+          path: "/tutorials", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/Tutorial.vue"), props: true
+        },
+        {
+          path: "/:title", name: "articles", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/Article.vue"), props: true
+        },
+        {
+          path: "/:title", name: "articles", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/Article.vue"), props: true
+        },
       ]
     }
   ]
@@ -78,7 +102,7 @@ router.beforeEach((to, from, next) => {
   var result = window.location.toString();
   if (result.indexOf("?onpc") == -1) {
     var browser = {
-      versions: (function() {
+      versions: (function () {
         var u = navigator.userAgent;
         return {
           //移动终端浏览器版本信息
@@ -89,7 +113,7 @@ router.beforeEach((to, from, next) => {
           mobile:
             !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
           ios: !!u.match(/i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
-          android: u.indexOf("Android") > -1 , //android终端或者uc浏览器
+          android: u.indexOf("Android") > -1, //android终端或者uc浏览器
           // android: u.indexOf("Android") > -1 || u.indexOf("Linux") > -1, //android终端或者uc浏览器
           linux: u.indexOf("Linux") > -1,
           iPhone:

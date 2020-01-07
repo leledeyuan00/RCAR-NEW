@@ -4,9 +4,9 @@ import App from "./App.vue";
 import "./plugins/element.js";
 import router from "./router";
 
-import 'quill/dist/quill.bubble.css'
-import 'quill/dist/quill.core.css'
-import 'quill/dist/quill.snow.css'
+// import 'quill/dist/quill.bubble.css'
+// import 'quill/dist/quill.core.css'
+// import 'quill/dist/quill.snow.css'
 
 import "./assets/scss/style.scss";
 

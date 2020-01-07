@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, Arial, Helvetica, sans-serif;
   line-height: 1.2em;
   background: #f1f1f1;
   -webkit-font-smoothing: antialiased;
@@ -193,4 +193,38 @@ p {
 .body-main {
   max-width: 1366px;
   margin: auto;
+}
+
+.server-articles{
+  ol,ul{
+    // color: red;
+    line-height: 2.2rem;
+    font-weight: 400;
+    letter-spacing: .02em;
+  }
+  p{
+    // color:red;
+    // font-family:  Georgia;
+    font-weight: 300;
+    letter-spacing: .02em;
+    text-align: center;
+  }
+  h1{
+    // font-family:  Georgia;
+    letter-spacing: .05em;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+    letter-spacing: .04em;
+    font-weight: 300;
+  }
+  h3{
+    text-align: center;
+    letter-spacing: .03em;
+    font-weight: 300;
+  }
+  h4,h5{
+    letter-spacing: .02em;
+  }
 }

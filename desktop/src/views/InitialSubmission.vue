@@ -1,7 +1,7 @@
 <template>
   <div class="body-main">
-    <div class="ql-container ql-snow">
-      <div class="ql-editor px-3 bg-white fs-xxl" v-html="models[2].submenus[0].body"></div>
+    <div class="server-articles">
+      <div class="px-3 bg-white fs-xxl" v-html="models[2].submenus[0].body"></div>
     </div>
   </div>
 </template>

@@ -4,13 +4,13 @@
       <img :src="logo" alt="" style="max-width:300px">
     </div>
     <span class="text text-right flex-1" >
-      <h5>
+      <h4>
         <b>2020 IEEE International Conference on Real-time</b>
-      </h5>
-      <h5>
+      </h4>
+      <h4>
         <b>Computing and Robotics</b>
-      </h5>
-      <h5 class="pt-3">August 2-6, 2020, Asahikawa, Japan</h5>
+      </h4>
+      <h4 class="pt-3">August 2-6, 2020, Asahikawa, Japan</h4>
     </span>
   </div>
 </template>
@@ -31,5 +31,11 @@ export default {
 }
 .text {
   float: right;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #3E99C9;
+  margin-bottom: 0.5em;
+  letter-spacing: .08em;
+  display: block;
 }
 </style>

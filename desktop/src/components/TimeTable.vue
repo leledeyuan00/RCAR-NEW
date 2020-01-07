@@ -10,8 +10,7 @@
       <el-table-column prop="info" min-width="400"></el-table-column>
       <el-table-column prop="old_date" min-width="100"></el-table-column>
       <el-table-column prop="date" min-width="100"></el-table-column>
-    </el-table>
-  </div>
+    </el-table>  </div>
 </template>
 
 <style>
@@ -32,8 +31,7 @@
 }
 .new {
   color: red;
-}
-</style>
+}</style>
 
 <script>
 export default {
@@ -54,8 +52,7 @@ export default {
         return "new";
       }
       return "";
-    },
-    handleClick(row) {
+    },    handleClick(row) {
       if (row.url) this.$router.push(row.url);
     }
   },
@@ -65,30 +62,25 @@ export default {
         {
           date: "Jan.31,2020",
           info: "Submission of papers",
-          old_date: "Dec.31,2019",
-          url: "./InitialSubmission"
+          old_date: "Dec.31,2019",          url: "./InitialSubmission"
         },
         {
           date: "Jan.31,2020",
           info: "Submission of organized session/workshop",
-          old_date: "Dec.31,2019"
-        },
+          old_date: "Dec.31,2019"        },
         {
           date: "Mar.20,2020",
           info: "Notificationof acceptance",
-          old_date: "Feb.20,2020"
-        },
+          old_date: "Feb.20,2020"        },
         {
           date: "Apr.20,2020",
           info: "Final paper submission",
-          old_date: "Mar.20,2020",
-          url: "./FinalSubmission"
+          old_date: "Mar.20,2020",          url: "./FinalSubmission"
         },
         {
           date: "May.1,2020",
           info: "Early bird registration",
-          old_date: "",
-          url: "./Registration"
+          old_date: "",          url: "./Registration"
         }
       ]
     };

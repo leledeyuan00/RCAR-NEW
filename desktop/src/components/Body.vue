@@ -1,5 +1,5 @@
 <template>
-  <div class="fs-xl">
+  <div class="fs-xxl">
     <p>Welcome to Asahikawa. The 2020 IEEE International Conference on Real-time Computing and Robotics (IEEE RCAR 2020) will take place from August 2 to 6, 2020 in Asahikawa, Japan. The objective of this conference is to provide a forum for researchers in robotics and real-time computing to share the latest results and to explore the opportunity of research collaboration. With wide applications of robots in industry and services sectors, real-time computing plays one of the major roles in various topics in robotics including real-time control, human-robot interactions, sensor perception and fusion, robot intelligence, etc. The scope of IEEE RCAR 2020 covers research, development and applications in the dynamic and exciting areas of real-time computing and robotics.</p>
     <p>
       <span class="phead fw-xxl text-red">Contributed Papers:</span> Original papers are solicited in all related areas of robotics, mechatronics, control engineering. Full papers must be submitted in PDF format prepared strictly following the requirements for creating PDF documents. The conference proceedings will be submitted to the IEEE Xplore® digital library.

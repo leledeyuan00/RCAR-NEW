@@ -1,6 +1,6 @@
 <template>
   <el-menu
-    class="el-menu-demo"
+    class="el-menu-demo  fw-xxl"
     mode="horizontal"
     background-color="#3E99C9"
     text-color="#FFF"
@@ -72,5 +72,12 @@ export default {
   position: sticky;
   top: 0;
   z-index: 999;
+}
+.el-menu-item{
+  font-size: 16px !important;
+
+}
+.el-submenu__title{
+  font-size: 16px !important;
 }
 </style>

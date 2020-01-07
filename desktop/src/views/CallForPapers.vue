@@ -1,9 +1,9 @@
 <template>
   <div class="body-main">
-    <div class="ql-container ql-snow">
+    <div class="server-articles">
       <div>
         <div
-          class="ql-editor px-3 bg-white fs-xxl"
+          class=" px-3 bg-white fs-xxl"
           v-html="models[3].submenus[0].body"
         ></div>
       </div>

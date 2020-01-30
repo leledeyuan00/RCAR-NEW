@@ -60,14 +60,14 @@ export default {
     return {
       tableData: [
         {
-          date: "Jan.31,2020",
+          date: "Mar.1,2020",
           info: "Submission of papers",
-          old_date: "Dec.31,2019",          url: "./InitialSubmission"
+          old_date: "Jan.31,2020",          url: "./InitialSubmission"
         },
         {
-          date: "Jan.31,2020",
+          date: "Mar.1,2020",
           info: "Submission of organized session/workshop",
-          old_date: "Dec.31,2019"        },
+          old_date: "Jan.31,2020"        },
         {
           date: "Mar.20,2020",
           info: "Notificationof acceptance",

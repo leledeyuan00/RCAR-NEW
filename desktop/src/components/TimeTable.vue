@@ -60,22 +60,22 @@ export default {
     return {
       tableData: [
         {
-          date: "Mar.1,2020",
+          date: "Mar.20,2020",
           info: "Submission of papers",
-          old_date: "Jan.31,2020",          url: "./InitialSubmission"
+          old_date: "Mar.1,2020",          url: "./InitialSubmission"
         },
         {
-          date: "Mar.1,2020",
-          info: "Submission of organized session/workshop",
-          old_date: "Jan.31,2020"        },
-        {
           date: "Mar.20,2020",
-          info: "Notificationof acceptance",
-          old_date: "Feb.20,2020"        },
+          info: "Submission of organized session/workshop",
+          old_date: "Mar.1,2020"        },
         {
           date: "Apr.20,2020",
+          info: "Notificationof acceptance",
+          old_date: "Mar.20,2020"        },
+        {
+          date: "May.1,2020",
           info: "Final paper submission",
-          old_date: "Mar.20,2020",          url: "./FinalSubmission"
+          old_date: "Apr.20,2020",          url: "./FinalSubmission"
         },
         {
           date: "May.1,2020",

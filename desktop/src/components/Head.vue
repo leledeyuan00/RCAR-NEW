@@ -36,6 +36,5 @@ export default {
   color: #3E99C9;
   margin-bottom: 0.5em;
   letter-spacing: .08em;
-  display: block;
 }
 </style>

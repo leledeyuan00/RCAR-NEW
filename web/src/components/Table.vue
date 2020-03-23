@@ -48,9 +48,9 @@ export default {
           old_date: "Mar.20,2020"
         },
         {
-          date: "Apr.20,2020",
+          date: "May.1,2020",
           info: "Notificationof acceptance",
-          old_date: "Mar.20,2020"
+          old_date: "Apr.20,2020"
         },
         {
           date: "May.8,2020",

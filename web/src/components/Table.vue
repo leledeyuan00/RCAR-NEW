@@ -37,15 +37,15 @@ export default {
     return {
       tableDate: [
         {
-          date: "Mar.20,2020",
+          date: "Apr.20,2020",
           info: "Submission of papers",
-          old_date: "Mar.1,2020",
+          old_date: "Mar.20,2020",
           url: "./InitialSubmission"
         },
         {
-          date: "Mar.20,2020",
+          date: "Apr.20,2020",
           info: "Submission of organized session/workshop",
-          old_date: "Mar.1,2020"
+          old_date: "Mar.20,2020"
         },
         {
           date: "Apr.20,2020",
@@ -53,15 +53,15 @@ export default {
           old_date: "Mar.20,2020"
         },
         {
-          date: "May.1,2020",
+          date: "May.8,2020",
           info: "Final paper submission",
-          old_date: "Apr.20,2020",
+          old_date: "May.1,2020",
           url: "./FinalSubmission"
         },
         {
-          date: "May.1,2020",
+          date: "May.8,2020",
           info: "Early bird registration",
-          old_date: "",
+          old_date: "May.1.2020",
           url: "./Registration"
         }
       ]

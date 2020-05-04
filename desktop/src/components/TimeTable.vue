@@ -73,12 +73,12 @@ export default {
           info: "Notification of acceptance",
           old_date: "Apr.20,2020"        },
         {
-          date: "May.8,2020",
+          date: "May.31,2020",
           info: "Final paper submission",
-          old_date: "May.1,2020",          url: "./FinalSubmission"
+          old_date: "May.8,2020",          url: "./FinalSubmission"
         },
         {
-          date: "May.8,2020",
+          date: "May.31,2020",
           info: "Early bird registration",
           old_date: "May.1,2020",          url: "./Registration"
         }

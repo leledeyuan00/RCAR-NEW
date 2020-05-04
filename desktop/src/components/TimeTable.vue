@@ -80,7 +80,7 @@ export default {
         {
           date: "May.31,2020",
           info: "Early bird registration",
-          old_date: "May.1,2020",          url: "./Registration"
+          old_date: "May.8,2020",          url: "./Registration"
         }
       ]
     };

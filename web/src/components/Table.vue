@@ -79,4 +79,5 @@ export default {
 .new {
   color: red;
 }
+
 </style>

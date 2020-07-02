@@ -31,11 +31,20 @@
 }
 .new {
   color: red;
+}
+.imp {
+  color: red;
+  text-decoration: line-through;
 }</style>
 
 <script>
 export default {
   methods: {
+    // cellClassName({row,column,rowIndex,columnIndex}){
+    //   if(rowIndex===4 && columnIndex===2){
+    //      return "imp";
+    //   }
+    // },
     tableRowClassName({ rowIndex }) {
       if (rowIndex === 1) {
         return "warning-row";
@@ -44,18 +53,22 @@ export default {
       }
       return "";
     },
-    // by xtl 2019.12.31
-    tableColClassName({ columnIndex }) {
+    //by xtl 2019.12.31
+    tableColClassName({  rowIndex, columnIndex }) {
       if (columnIndex === 1) {
         return "old";
-      } else if (columnIndex === 2) {
+      } else if (columnIndex === 2&&rowIndex!==4) {
         return "new";
+      } else if (columnIndex!==0){
+        return "imp"
       }
       return "";
-    },    handleClick(row) {
+    },    
+    handleClick(row) {
       if (row.url) this.$router.push(row.url);
-    }
+    },    
   },
+
   data() {
     return {
       tableData: [

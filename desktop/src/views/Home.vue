@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="body_container home bg-white border-body">
+    
       <Carousel />
       <div class>
         <video
@@ -26,6 +26,24 @@
       </el-row>
       <div class="mx-5 text-center">
         <TimeTable />
+      </div>
+      <div class="body_container home bg-white border-body">
+      <h4 class="py-2 text-center border-top text-red">
+        Important Announcement
+        <i class="el-icon-warning el-icon--right"></i>
+      </h4>
+      <div class="fs-xxl">
+      <p>
+      <span class="phead fw-xxl text-red"> Since the current situation of COVID-19, the program committee has determined to postpone the conference. The registration site will be opened after the new schedule is determined. Please continue to follow the update in this website. </span>
+      </p>
+      </div>
+      <div class="fs-xxl text-right">
+      <p>
+      <span class="phead fw-xxl text-red ">  Program committee of RCAR 2020</span>
+      </p>
+       <p>
+      <span class="phead fw-xxl text-red ">  July.1st</span>
+      </p>
       </div>
       <h4 class="py-2 text-center border-top">
         Welcome Message

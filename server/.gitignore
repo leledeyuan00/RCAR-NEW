@@ -19,3 +19,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# npm run build
+uploads
+desktop
+download
+mobile

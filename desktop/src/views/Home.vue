@@ -27,17 +27,17 @@
       <div class="mx-5 text-center">
         <TimeTable />
       </div>
-      <div class="msg text-red py-2 mx-13">
+      <!-- <div class="msg text-red py-2 mx-13">
         <Announcement />
-      </div>
+      </div> -->
       <div class="body_container home bg-white border-body">
-      <!-- <h4 class="py-2 text-center border-top text-red">
+      <h4 class="py-2 text-center border-top text-red">
         Important Announcement
         <i class="el-icon-warning el-icon--right"></i>
       </h4>
       <div class="msg bg-white px-2">
         <Announcement />
-      </div> -->
+      </div>
       <h4 class="py-2 text-center border-top">
         Welcome Message
         <i class="el-icon-magic-stick el-icon--right"></i>

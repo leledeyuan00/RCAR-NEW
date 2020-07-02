@@ -27,24 +27,17 @@
       <div class="mx-5 text-center">
         <TimeTable />
       </div>
+      <div class="msg text-red py-2 mx-13">
+        <Announcement />
+      </div>
       <div class="body_container home bg-white border-body">
-      <h4 class="py-2 text-center border-top text-red">
+      <!-- <h4 class="py-2 text-center border-top text-red">
         Important Announcement
         <i class="el-icon-warning el-icon--right"></i>
       </h4>
-      <div class="fs-xxl">
-      <p>
-      <span class="phead fw-xxl text-red"> Since the current situation of COVID-19, the program committee has determined to postpone the conference. The registration site will be opened after the new schedule is determined. Please continue to follow the update in this website. </span>
-      </p>
-      </div>
-      <div class="fs-xxl text-right">
-      <p>
-      <span class="phead fw-xxl text-red ">  Program committee of RCAR 2020</span>
-      </p>
-       <p>
-      <span class="phead fw-xxl text-red ">  July.1st</span>
-      </p>
-      </div>
+      <div class="msg bg-white px-2">
+        <Announcement />
+      </div> -->
       <h4 class="py-2 text-center border-top">
         Welcome Message
         <i class="el-icon-magic-stick el-icon--right"></i>
@@ -61,6 +54,7 @@ import Vue from "vue";
 import Carousel from "./../components/Carousel.vue";
 import Body from "./../components/Body.vue";
 import TimeTable from "./../components/TimeTable.vue";
+import Announcement from "./../components/Announcement.vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
 export default {
@@ -69,6 +63,7 @@ export default {
     Carousel,
     Body,
     TimeTable,
+    Announcement,
   },
 };
 </script>

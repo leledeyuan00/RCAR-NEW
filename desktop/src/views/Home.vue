@@ -38,6 +38,25 @@
       <div class="msg bg-white px-2">
         <Announcement />
       </div>
+      <h4 class="pt-2 text-center">
+        New Announcement
+      <i class="el-icon--right"></i>
+      </h4>
+      <div class="msg bg-white px-2">
+        <NewAnnouncement />
+      </div>
+      <h4 class="pt-2 text-center">
+        Schedule
+      <i class="el-icon--right"></i>
+      </h4>
+      <el-row type="flex" class="row-bg" justify="space-around">
+        <el-col :span="7.5">
+          <div class="grid-content bg-purple"></div>
+        </el-col>
+      </el-row>
+      <div class="mx-5 text-center">
+        <NewTimeTable />
+      </div>
       <h4 class="py-2 text-center border-top">
         Welcome Message
         <i class="el-icon-magic-stick el-icon--right"></i>
@@ -54,6 +73,8 @@ import Vue from "vue";
 import Carousel from "./../components/Carousel.vue";
 import Body from "./../components/Body.vue";
 import TimeTable from "./../components/TimeTable.vue";
+import NewAnnouncement from "./../components/NewAnnouncement.vue";
+import NewTimeTable from "./../components/NewTimeTable.vue";
 import Announcement from "./../components/Announcement.vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
@@ -63,6 +84,8 @@ export default {
     Carousel,
     Body,
     TimeTable,
+    NewAnnouncement,
+    NewTimeTable,
     Announcement,
   },
 };

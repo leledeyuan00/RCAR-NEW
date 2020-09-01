@@ -45,7 +45,7 @@
       <div class="msg bg-white px-2">
         <NewAnnouncement />
       </div>
-      <h4 class="pt-2 text-center">
+      <!-- <h4 class="pt-2 text-center">
         Schedule
       <i class="el-icon--right"></i>
       </h4>
@@ -56,7 +56,7 @@
       </el-row>
       <div class="mx-5 text-center">
         <NewTimeTable />
-      </div>
+      </div> -->
       <h4 class="py-2 text-center border-top">
         Welcome Message
         <i class="el-icon-magic-stick el-icon--right"></i>
@@ -74,7 +74,7 @@ import Carousel from "./../components/Carousel.vue";
 import Body from "./../components/Body.vue";
 import TimeTable from "./../components/TimeTable.vue";
 import NewAnnouncement from "./../components/NewAnnouncement.vue";
-import NewTimeTable from "./../components/NewTimeTable.vue";
+// import NewTimeTable from "./../components/NewTimeTable.vue";
 import Announcement from "./../components/Announcement.vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
@@ -85,7 +85,7 @@ export default {
     Body,
     TimeTable,
     NewAnnouncement,
-    NewTimeTable,
+    // NewTimeTable,
     Announcement,
   },
 };

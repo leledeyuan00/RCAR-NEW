@@ -40,7 +40,7 @@
       </div>
       <h4 class="pt-2 text-center">
         New Announcement
-      <i class="el-icon--right"></i>
+      <i class="el-icon --right"></i>
       </h4>
       <div class="msg bg-white px-2">
         <NewAnnouncement />

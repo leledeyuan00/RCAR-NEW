@@ -15,12 +15,14 @@
     <el-menu-item index="./Committee">
       <template slot="title">Committee</template>
     </el-menu-item>
+    <!--
     <el-submenu  index="2">
       <template slot="title">Program</template>
       <el-menu-item index="./Program">Program at a Glance</el-menu-item>
       <el-menu-item index="./Invited">Invited Speakers</el-menu-item>
       <el-menu-item index="./Tutorials">Tutorials & Workshops</el-menu-item>
     </el-submenu>
+    -->
     <el-menu-item  index="./CallForPapers">
       <template slot="title">Call for Papers</template>
     </el-menu-item>
@@ -32,12 +34,14 @@
     <el-menu-item  index="./Registration">
       <template slot="title">Registration</template>
     </el-menu-item>
+    <!--
     <el-submenu  index="4">
       <template slot="title">Venue</template>
       <el-menu-item index="./ConferenceVenue">Conference Venue</el-menu-item>
       <el-menu-item index="./Accommodation">Accommodation</el-menu-item>
       <el-menu-item index="./AboutAsahikawa">About Asahikawa</el-menu-item>
     </el-submenu>
+    -->
     <el-menu-item index="./history">
       <template slot="title">History</template>
     </el-menu-item>

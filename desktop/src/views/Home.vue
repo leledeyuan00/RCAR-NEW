@@ -45,6 +45,13 @@
       <div class="msg bg-white px-2">
         <NewAnnouncement />
       </div>
+      <h4 class="pt-2 text-center">
+        Annoucement of Conference Schedule 
+      <i class="el-icon --right"></i>
+      </h4>
+      <div class="msg bg-white px-2">
+        <CenferenceSchedule />
+      </div>
       <!-- <h4 class="pt-2 text-center">
         Schedule
       <i class="el-icon--right"></i>
@@ -76,6 +83,7 @@ import TimeTable from "./../components/TimeTable.vue";
 import NewAnnouncement from "./../components/NewAnnouncement.vue";
 // import NewTimeTable from "./../components/NewTimeTable.vue";
 import Announcement from "./../components/Announcement.vue";
+import CenferenceSchedule from "./../components/ConferenceSchedule.vue"
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
 export default {
@@ -87,6 +95,7 @@ export default {
     NewAnnouncement,
     // NewTimeTable,
     Announcement,
+    CenferenceSchedule,
   },
 };
 </script>

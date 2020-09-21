@@ -45,9 +45,17 @@
     <el-menu-item index="./history">
       <template slot="title">History</template>
     </el-menu-item>
+    <el-menu-item index="./FAQ">
+      <template slot="title">
+        <p class="el-icon-question pt-2"></p>
+        <a href="https://github.com/leledeyuan00/rcar_wiki/wiki/FAQ" >
+        FAQ</a></template>
+    </el-menu-item>
+    
     <!-- <el-menu-item index="3" disabled>消息中心</el-menu-item>
     <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>-->
   </el-menu>
+  
 </template>
 
 <script>

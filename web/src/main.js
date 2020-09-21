@@ -34,7 +34,7 @@ if (process.env.NODE_ENV === "production") {
 import axios from 'axios'
 Vue.prototype.$http = axios.create({
   // baseURL: process.env.VUE_APP_API_URL || 'web/api'
-  baseURL: 'http://www.ieee-rcar.com/web/api'
+  baseURL: 'https://www.ieee-rcar.com/web/api'
 })
 
 Vue.config.productionTip = false;

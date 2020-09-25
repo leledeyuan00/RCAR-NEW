@@ -5,13 +5,13 @@
       </h1>
       <br>
       <h3 style="margin-top:10px; margin-bottom:10px;">
-        <strong> Plenary Talk Ⅰ: Monday, Sept. 28</strong>
+        <strong> Plenary Talk Ⅰ: 9:00-9:45, Monday, Sept. 28</strong>
       </h3>
       <br>
-      <img src="./../../../src/images/Hideki_Hashimoto.jpg" class="card-im-left" width="175" height="222">
+      <img src="./../../../src/images/hashimoto.png" class="card-im-left" width="175" height="222">
       <br>
       <h4>
-        <strong> Hideki Hashimoto, Chuo University, Japan</strong>
+        <strong> Prof. Hideki Hashimoto, Chuo University, Japan</strong>
       </h4>
       <h4>
         <strong>Title:Intelligent Spaces (iSpaces)
@@ -32,13 +32,13 @@ In this talk I focus on new issues of Intelligent Spaces such as Energy, Transpo
 
       <br>
       <h3 style="margin-top:10px; margin-bottom:10px;">
-        <strong> Plenary Talk Ⅱ: Tuesday, Sept. 29</strong>
+        <strong> Plenary Talk Ⅱ: 9:00-9:45, Tuesday, Sept. 29</strong>
       </h3>
       <br>
       <img src="./../../../src/images/df7631bd4eec3698d04a3d0ac06dccb.jpg" width="175" height="222">
       <br>
       <h4>
-        <strong> Zhendong Dai, Nanjing University of Aeronautics and Astronatics, China</strong>
+        <strong> Prof. Zhendong Dai, Nanjing University of Aeronautics and Astronatics, China</strong>
       </h4>
       <h4>
         <strong>Title: Biomimetics on gecko locomotion: from Biology to Engineering</strong>
@@ -50,7 +50,13 @@ In this talk I focus on new issues of Intelligent Spaces such as Energy, Transpo
       </p>
       <p>
         <strong>Biography:</strong>
-        
+        Dr. Zhendong Dai is director and founder of the Institute of Bio-inspired Structure and Surface Engineering (IBSS) at Nanjing University of Aeronautics and Astronautics (NUAA). He is Professor of Astronautics, Mechanical Engineering, Mechanics, Materials Science and Engineering.
+He set up a theory of tribo-irreversible thermodynamics and used the idea to understand coupling interaction among various factors by ENTROPY. In 2000, he jointed Grob’s biological group in Institute of Development Biology, Max-Plank-Institute, Tuebingen, Germany, where he learned the language of biology, and got feeling that what engineers may learn from biology and can do for biology. He designed the 3D sensors when he was in Germany
+He attracted Prof. Sun from Beijing University and collaborated cordially, Dai and the staffs got training biological knowledge and learn to speak with biologist. He and Sun drawn a schedule for IBSS, and closely worked together in finding a way to stimulate animals locomotion, esp. gecko and pigeon, and by this way to understand how brain work during locomotion and how biological robot can be set up. 
+	He was acutely aware the importance of reaction force in clearly understanding the locomotion, developed 3D force sensors and set up a facility to measure the 3D reaction force and to observe the motion behaviors simultaneously. He and his group find the different of reaction force pattern when gecko moving on floor, wall, ceiling and even various inclined surfaces, which greatly inspired the design of gecko-mimicking robots. The technology also be used for understanding the role of forelimb of frog during jumping, the behavior of locust when the incline changes. At the same time, the adhesive mechanism and the detaching technique used by gecko were subtly investigated; the adhesive structures mimicking setae were developed by self-growing carbon nanotube array technology, gecko mimicking adhesive elements and the robot were developed for the applications in space and vacuum.
+	To meet the requirement of applications, such as light-weight load-carrying materials, heat-transferring, high-performance lead cell, electromagnetic shielding, many scientific questions and key technique were studied.
+	Those works by he and his group are admitted by scientific and industrial societies, he has be pointed as boarding member of various journals, stand member of various academic societies. He has charged number of important projects, including two NSFC key projects and three key international collaboration projects. He has authored 6 books and more than 400 peer reviewed papers. 
+	His research interests include biomimetic on legged locomotion —gecko-mimicking robot, biological gecko-robot, locomotion dynamics and artificial adhesive; lightweight structures and materials —bio-inspired lightweight structure, multifunctional foamed metal; and tribology.
       </p>
       </h5>
 

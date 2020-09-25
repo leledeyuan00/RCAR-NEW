@@ -14,11 +14,14 @@
         <strong> Hideki Hashimoto, Chuo University, Japan</strong>
       </h4>
       <h4>
-        <strong>Title:</strong>
+        <strong>Title:Intelligent Spaces (iSpaces)
+        -Sensing and Actuating to Support Human Activities-</strong>
       </h4>
       <h5>
       <p>
         <strong>Abstract:</strong>
+        We have been working for Intelligent Spaces (iSpaces) which have functions of understanding environments by networking sensors and serving people by using Mechatoronics/Robotics devices. Many technologies have been applied to Intelligent Spaces, such as vision sensors, LRF, ultra sound sensors, electromagnetic sensors, and  other hardware to detect and track human and robots. Intelligent Spaces are good platforms to integrate many kinds of technologies. Integration itself is an important key to combine those technologies. 
+In this talk I focus on new issues of Intelligent Spaces such as Energy, Transportation and Health Care. We are developing a new energy management system which is introducing mobile Energy Storage Devices with wireless energy transfer. And we are proposing a compact mobile vehicle to realize comfortable transportation in buildings. For health care problem we are working for measuring of human biometrics to get good sleep and reduce human stress. 
       </p>
       <p>
         <strong>Biography:</strong>

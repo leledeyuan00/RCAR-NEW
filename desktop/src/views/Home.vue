@@ -2,6 +2,7 @@
   <div>
     
       <Carousel />
+      <!--
       <div class>
         <video
           class="pt-4"
@@ -14,7 +15,7 @@
         <div
           class="text-grey py-1 border-bottom"
         >RCAR 2020 Welcome. Part of video comes from youtube . Thanks to the author.</div>
-      </div>
+      </div>-->
       <h4 class="pt-2 text-center">
         Important Dates
         <i class="el-icon-date el-icon--right"></i>
@@ -37,6 +38,12 @@
       </h4>
       <div class="msg bg-white px-2">
         <Announcement />
+      </div>
+      <h4 class="pt-2 text-center">
+        Announcement of Registration
+      </h4>
+      <div class="msg bg-white px-2">
+        <Register_anmt/>
       </div>
       <h4 class="pt-2 text-center">
         New Announcement
@@ -84,6 +91,7 @@ import NewAnnouncement from "./../components/NewAnnouncement.vue";
 // import NewTimeTable from "./../components/NewTimeTable.vue";
 import Announcement from "./../components/Announcement.vue";
 import CenferenceSchedule from "./../components/ConferenceSchedule.vue"
+import Register_anmt from "./../components/Register_anmt.vue"
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
 export default {
@@ -96,6 +104,7 @@ export default {
     // NewTimeTable,
     Announcement,
     CenferenceSchedule,
+    Register_anmt,
   },
 };
 </script>

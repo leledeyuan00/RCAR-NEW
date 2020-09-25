@@ -1,6 +1,7 @@
 <template>
   <div class>
     <swiper>
+      <!--
       <swiper-slide>
         <video
           class="w-100"
@@ -10,17 +11,38 @@
           controls="controls"
         >请更新你的浏览器到最新版本</video>
       </swiper-slide>
+      -->
       <swiper-slide>
-        <img class="w-100" height="auto" src="./../../../src/images/01-m.png" alt />
+        <img
+          class="w-100"
+          height="auto"
+          src="./../../../src/images/01-m.png"
+          alt
+        />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="./../../../src/images/02-m.png" alt />
+        <img
+          class="w-100"
+          height="auto"
+          src="./../../../src/images/02-m.png"
+          alt
+        />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="./../../../src/images/03-m.png" alt />
+        <img
+          class="w-100"
+          height="auto"
+          src="./../../../src/images/03-m.png"
+          alt
+        />
       </swiper-slide>
       <swiper-slide>
-        <img class="w-100" height="auto" src="./../../../src/images/04-m.png" alt />
+        <img
+          class="w-100"
+          height="auto"
+          src="./../../../src/images/04-m.png"
+          alt
+        />
       </swiper-slide>
     </swiper>
   </div>
@@ -34,10 +56,9 @@ export default {
   name: "block",
   components: {
     swiper,
-    swiperSlide
-  }
+    swiperSlide,
+  },
 };
 </script>
 
-<style>
-</style>
+<style></style>

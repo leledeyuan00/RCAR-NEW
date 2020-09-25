@@ -49,8 +49,8 @@
             </b-nav-item-dropdown>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item disabled>
-              <router-link tag="div" :to="'#'">Registration</router-link>
+            <b-nav-item>
+              <router-link tag="div" :to="'./Registration'">Registration</router-link>
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">

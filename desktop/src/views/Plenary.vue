@@ -85,6 +85,37 @@ He attracted Prof. Sun from Beijing University and collaborated cordially, Dai a
       </p>
       </h5>
 
+      <br>
+      <h3 style="margin-top:10px; margin-bottom:10px;">
+        <strong> Plenary Talk Ⅳ: 10:00-10:50, Tuesday, Sep. 29</strong>
+      </h3>
+      <br>
+      <img src="./../../../src/images/YongchunFang.png" width="175" height="222">
+      <br>
+      <h4>
+        <strong> Prof. Yongchun Fang, College of Artificial Intelligence, Nankai University, Tianjin, China</strong>
+      </h4>
+      <h4>
+        <strong>Title: Dynamics Analysis and Nonlinear Control for Unmanned Quadrotor Cable-suspended Transportation Systems</strong>
+      </h4>
+      <h5>
+      <p style="text-align:justify">
+        <strong>Abstract:</strong>
+        Cable-suspended transportation is an important way of transferring goods and materials by rotorcrafts in complex and hazardous environments, where external disturbances, system uncertainties, and especially the ``twofold'' underactuated characteristic bring great challenges to realize safe and smooth deliveries. This talk discusses the latest research results on the dynamics analysis, motion planning, and nonlinear control of the quadrotor transportation systems. Specifically, based on Lagrangian mechanics, a precise model is set up for the “twofold” underactuated aerial transportation system. Then, a time-optimal motion planning technique is proposed to generate a minimum-time trajectory in consideration of state and control constraints. Finally, some nonlinear control algorithms are designed to achieve asymptotic stability, whose performance is verified by various experimental results.
+      </p>
+      <p style="text-align:justify">
+        <strong>Keywords:</strong>
+        distributed parameter systems, static output feedback control, mobile actuator/sensor guidance, exponential stabilization
+      </p>
+      <p style="text-align:justify">
+        <strong>Biography:</strong>
+        Yongchun Fang received the B.S. degree in electrical engineering and the M.S. degree in control theory and application, both from Zhejiang University, P. R. China, in 1996 and 1999, respectively, and the Ph.D. degree in electrical engineering from Clemson University, SC, USA in 2002..
+From 2002 to 2003, Dr. Fang was a Postdoctoral Fellow at the Mechanical and Aerospace Engineering Department, Cornell University. Since 2003, he has been a professor at the Institute of Robotics and Automatic Information System, Nankai University, Tianjin, P. R. China. Dr. Fang is currently the head of the College of Artificial Intelligence, Nankai Univeristy, and also a Yangtze River Distinguished Professor of the Chinese Minister of Education. 
+Dr. Fang’s research interests include underactuated systems control, visual servoing, AFM-based nano-manipulation, and so on.
+Dr. Fang is a recipient of the China National Funds for Distinguished Young Scientists, and he won the First Prize of Wu Wenjun Natural Science of Artificial Intelligence in 2017.
+      </p>
+      </h5>
+
   </div>
 </template>
 

@@ -5,7 +5,7 @@
       </h1>
       <br>
       <h3 style="margin-top:10px; margin-bottom:10px;">
-        <strong> Plenary Talk Ⅰ: 9:00-9:45, Monday, Sept. 28</strong>
+        <strong> Plenary Talk Ⅰ: 9:00-9:45, Monday, Sep. 28</strong>
       </h3>
       <br>
       <img src="./../../../src/images/hashimoto.png" class="card-im-left" width="175" height="222">
@@ -18,12 +18,12 @@
         -Sensing and Actuating to Support Human Activities-</strong>
       </h4>
       <h5>
-      <p>
+      <p style="text-align:justify">
         <strong>Abstract:</strong>
         We have been working for Intelligent Spaces (iSpaces) which have functions of understanding environments by networking sensors and serving people by using Mechatoronics/Robotics devices. Many technologies have been applied to Intelligent Spaces, such as vision sensors, LRF, ultra sound sensors, electromagnetic sensors, and  other hardware to detect and track human and robots. Intelligent Spaces are good platforms to integrate many kinds of technologies. Integration itself is an important key to combine those technologies. 
 In this talk I focus on new issues of Intelligent Spaces such as Energy, Transportation and Health Care. We are developing a new energy management system which is introducing mobile Energy Storage Devices with wireless energy transfer. And we are proposing a compact mobile vehicle to realize comfortable transportation in buildings. For health care problem we are working for measuring of human biometrics to get good sleep and reduce human stress. 
       </p>
-      <p>
+      <p style="text-align:justify">
         <strong>Biography:</strong>
         Hideki Hashimoto (IEEE Fellow, SICE Fellow, RSJ Fellow) received the B.S., M.S. and Dr. of Engineering from the Department of Electrical Engineering, University of Tokyo in 1981, 1984 and 1987 respectively. He joined the Institute of Industrial Science of the University of Tokyo as a lecturer in April of 1987. He was an associate professor from July of 1990 until March of 2011. He has been a professor at Dept. of Electrical, Electronics and Communication Engineering, Chuo University, Tokyo, Japan since April of 2011. He was a visiting scientist at LIDS (Laboratory for Information and Decision System) and LEES (Laboratory for Electromagnetic and Electronic Systems) of MIT from September of 1989 to August of 1990. He was an Invited Distinguished Professor at Seoul National University from 2009 to 2012, and a Visiting Professor at Budapest University of Technology and Economics from 2009 to 2011. He is a visiting professor at Budapest University of Technology and Economics from 2014. He was the founding general chair of 1997 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM). He was a program chair of IEEE/RSJ IROS in 1988 and 2000, and a general chair of IEEE ITS Conference in 2002 and IECON 2015. His research topics are Intelligent Space, Intelligent Systems, Mechatronics, Robotics and Control. 
         <a href="https://www.elect.chuo-u.ac.jp/hlab/en/" rel="noopener noreferrer" target="_blank" style="background-color:transparent;color:rgb(51,122,183);">https://www.elect.chuo-u.ac.jp/hlab/en/</a>
@@ -32,7 +32,7 @@ In this talk I focus on new issues of Intelligent Spaces such as Energy, Transpo
 
       <br>
       <h3 style="margin-top:10px; margin-bottom:10px;">
-        <strong> Plenary Talk Ⅱ: 9:00-9:45, Tuesday, Sept. 29</strong>
+        <strong> Plenary Talk Ⅱ: 9:00-9:45, Tuesday, Sep. 29</strong>
       </h3>
       <br>
       <img src="./../../../src/images/df7631bd4eec3698d04a3d0ac06dccb.jpg" width="175" height="222">
@@ -44,11 +44,11 @@ In this talk I focus on new issues of Intelligent Spaces such as Energy, Transpo
         <strong>Title: Biomimetics on gecko locomotion: from Biology to Engineering</strong>
       </h4>
       <h5>
-      <p>
+      <p style="text-align:justify">
         <strong>Abstract:</strong>
         Geckos have been studied for many years for their excellent moving abilities on various substrates, including any inclines, even ceilings, and various rough surfaces. Here we report our studies on the gecko adhesive mechanism, attaching and detaching dynamics, locomotion behaviors on anti-adhesive substrate and confined space, bio-inspired adhesive materials and gecko-inspired robot for micro-gravity condition. We have obtained following results: 1) The contact/ tribo-electrifiction is a mechanism more than Van der Waals force for gecko adhesion, we designed an experiment and measured the results showed the evidence of influence of contact / tribo-electrifiction on adhesion. 2) Gecko smartly uses technique of adducting and abducting to make attachment and detachment, this behavior inspired us to design a new pad for gecko-mimicking robot, instand of peeling from substrate. 3) Geckos developed positive and active synergy methods to overcome the difficult to move on anti-adhesive substrate. 4) We have developed bio-inspired adhesive materials and tested they performance for gecko mimicking robot. 5) Then we developed gecko-inspired robot for several possible applications.
       </p>
-      <p>
+      <p style="text-align:justify">
         <strong>Biography:</strong>
         Dr. Zhendong Dai is director and founder of the Institute of Bio-inspired Structure and Surface Engineering (IBSS) at Nanjing University of Aeronautics and Astronautics (NUAA). He is Professor of Astronautics, Mechanical Engineering, Mechanics, Materials Science and Engineering.
 He set up a theory of tribo-irreversible thermodynamics and used the idea to understand coupling interaction among various factors by ENTROPY. In 2000, he jointed Grob’s biological group in Institute of Development Biology, Max-Plank-Institute, Tuebingen, Germany, where he learned the language of biology, and got feeling that what engineers may learn from biology and can do for biology. He designed the 3D sensors when he was in Germany

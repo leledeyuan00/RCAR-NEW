@@ -5,7 +5,7 @@
       </h1>
       <br>
       <h3 style="margin-top:10px; margin-bottom:10px;">
-        <strong> Plenary Talk Ⅰ: 9:00-9:45, Monday, Sep. 28</strong>
+        <strong> Plenary Talk Ⅰ: 9:00-9:50, Monday, Sep. 28</strong>
       </h3>
       <br>
       <img src="./../../../src/images/hashimoto.png" class="card-im-left" width="175" height="222">
@@ -32,7 +32,32 @@ In this talk I focus on new issues of Intelligent Spaces such as Energy, Transpo
 
       <br>
       <h3 style="margin-top:10px; margin-bottom:10px;">
-        <strong> Plenary Talk Ⅱ: 9:00-9:45, Tuesday, Sep. 29</strong>
+        <strong> Plenary Talk Ⅱ: 10:00-10:50, Tuesday, Sep. 28</strong>
+      </h3>
+      <br>
+      <img src="./../../../src/images/LianqingLiu.png" width="175" height="222">
+      <br>
+      <h4>
+        <strong> Prof. Lianqing Liu, Shenyang Institute of Automation, Chinese Academy of Science, China</strong>
+      </h4>
+      <h4>
+        <strong>Title: Modeling, Fabrication and Control of Living Cell based modular Micro Robot</strong>
+      </h4>
+      <h5>
+      <p style="text-align:justify">
+        <strong>Abstract:</strong>
+        Micro-robots have a great application prospect in the biomedical field due to the feature of small size. To solve the issues of energy supply and bio-compatibility of micro-robots, the bio-syncretic micro-robots actuated by living cells have been studied widely. However, the fabrication, assembling and control of the bio-syncretic micro-robots are the main challenges for the development of the bio-syncretic micro-robots. In this talk, manufacture and control of the living cells based modular micro robots will be discussed. Firstly, a robotic micro-manipulation system will be introduced to implement the high-throughput fabrication of the biological modules of micro robots, and to execute the on-line flexible assembling of the bio-syncretic robots by the fabricated living cells based modules. Then, an approach based on circularly distributed multiple electrodes (CE) will be induced to improve the differentiation of myoblast cells and characterize the electro-responsive beating behavior of living myotubes for the development of bio-syncretic micro robots. Moreover, a biomimetic bio-syncretic crawler actuated by living myotubes was demonstrated to move under the control of the CE. This talk will not only be related to the micro-robots, but will be also informative for biological tissue engineering and drugs screening.
+      </p>
+      <p style="text-align:justify">
+        <strong>Biography:</strong>
+        Lianqing Liu received his Ph.D. degree in Pattern Recognition and Intelligent System from university of Chinese Academy of Sciences, China in 2008, and B.S. degree in Industry Automation from Zhengzhou University, China in 2002. He started his career in 2006 at Shenyang Institute of Automation, Chinese Academy of Sciences, and holds the position of Assistant Professor (2006-2008), Associate Professor (2009-2010) and Professor (2011 to now) respectively. 
+Currently his research interests include Nanorobotics, Intelligent control, and Biosensors. He has published over 100 peer reviewed international journal papers and led more than 20 funded research projects as Principal Investigator. 17 papers were selected as cover story published in “Small”, “Lab on a Chip” “Soft Matter”, “Applied Physics Letters” et al. He received the Best Student paper Award in 2015 International Conference on Manipulation, Manufacture and Measurement on the Nanoscale, Best Conference Paper in 2016 IEEE International Conference on Nano/Molecular Medicine and Engineering, and T. J. Tarn Best Paper in Robotics in 2017 IEEE international Conference on Robotics and Biomimetics. He was awarded the Early Government/Industrial Career Award by the IEEE Robotics and Automation Society in 2011, serves as a member of long range planning committee of RAS since 2017, and has been elected as the vice president of IEEE Robotics and Automation Society for the term of 2018-2019.
+      </p>
+      </h5> 
+
+      <br>
+      <h3 style="margin-top:10px; margin-bottom:10px;">
+        <strong> Plenary Talk Ⅲ: 9:00-9:50, Tuesday, Sep. 29</strong>
       </h3>
       <br>
       <img src="./../../../src/images/df7631bd4eec3698d04a3d0ac06dccb.jpg" width="175" height="222">

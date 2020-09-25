@@ -52,7 +52,7 @@
         Join RCAR 2020 WeChat Group!
       </h5>
       <div>
-        <img src="./../../../src/images/8077e09358c2044cb69a16106f9f3b4.png" width="200" height="200">
+        <img src="./../../../src/images/20200925145023.jpg" width="200" height="200">
       </div>
   </div>
 </template>

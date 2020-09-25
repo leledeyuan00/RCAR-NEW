@@ -10,7 +10,7 @@
       <h4>
         <b>Computing and Robotics</b>
       </h4>
-      <h4 class="pt-3">August 2-6, 2020, Asahikawa, Japan</h4>
+      <h2 class="pt-3"><strong> Meeting Date: Sep. 28~29, 2020</strong></h2>
     </span>
   </div>
 </template>

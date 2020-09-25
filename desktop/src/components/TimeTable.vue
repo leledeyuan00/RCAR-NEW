@@ -57,10 +57,8 @@ export default {
     tableColClassName({  rowIndex, columnIndex }) {
       if (columnIndex === 1) {
         return "old";
-      } else if (columnIndex === 2&&rowIndex!==4) {
+      } else if (columnIndex === 2) {
         return "new";
-      } else if (columnIndex!==0){
-        return "imp"
       }
       return "";
     },    
@@ -91,9 +89,9 @@ export default {
           old_date: "May.8,2020",          url: "./FinalSubmission"
         },
         {
-          date: "May.31,2020",
+          date: "Sep.18,2020",
           info: "Early bird registration",
-          old_date: "May.8,2020",          url: "./Registration"
+          old_date: "May.31,2020",          url: "./Registration"
         }
       ]
     };

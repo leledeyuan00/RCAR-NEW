@@ -31,19 +31,19 @@
       <!-- <div class="msg text-red py-2 mx-13">
         <Announcement />
       </div> -->
-      <div class="body_container home bg-white border-body">
-      <h4 class="py-2 text-center border-top text-red">
-        Important Announcement
-        <i class="el-icon-warning el-icon--right"></i>
-      </h4>
-      <div class="msg bg-white px-2">
-        <Announcement />
-      </div>
-      <h4 class="pt-2 text-center">
+      <div class="body_container home bg-white border-body ">
+      <h4 class="pt-2 text-center text-red">
         Announcement of Registration
       </h4>
       <div class="msg bg-white px-2">
         <Register_anmt/>
+      </div>
+      <h4 class="pt-2 text-center">
+        Annoucement of Conference Schedule 
+      <i class="el-icon --right"></i>
+      </h4>
+      <div class="msg bg-white px-2">
+        <CenferenceSchedule />
       </div>
       <h4 class="pt-2 text-center">
         New Announcement
@@ -52,12 +52,12 @@
       <div class="msg bg-white px-2">
         <NewAnnouncement />
       </div>
-      <h4 class="pt-2 text-center">
-        Annoucement of Conference Schedule 
-      <i class="el-icon --right"></i>
+      <h4 class="py-2 text-center ">
+        Important Announcement
+        <i class="el-icon-warning el-icon--right"></i>
       </h4>
       <div class="msg bg-white px-2">
-        <CenferenceSchedule />
+        <Announcement />
       </div>
       <!-- <h4 class="pt-2 text-center">
         Schedule

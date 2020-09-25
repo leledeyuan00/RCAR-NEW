@@ -16,20 +16,20 @@
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item disabled>
+            <b-nav-item>
               <router-link tag="div" :to="'./Committee'">Committee</router-link>
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item-dropdown disabled text="Program" left>
+            <b-nav-item-dropdown text="Program" left>
               <b-dropdown-item>
                 <router-link tag="div" :to="'#'">Program at a Glance</router-link>
               </b-dropdown-item>
               <b-dropdown-item>
-                <router-link tag="div" :to="'#'">Invited Speakers</router-link>
+                <router-link tag="div" :to="'./Plenary'">Plenary Speakers</router-link>
               </b-dropdown-item>
               <b-dropdown-item>
-                <router-link tag="div" :to="'#'">Tutorials & Workshops</router-link>
+                <router-link tag="div" :to="'./Keynote'">Keynote Speakers</router-link>
               </b-dropdown-item>
             </b-nav-item-dropdown>
           </b-navbar-nav>

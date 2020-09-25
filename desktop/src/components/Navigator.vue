@@ -15,14 +15,14 @@
     <el-menu-item index="./Committee">
       <template slot="title">Committee</template>
     </el-menu-item>
-    <!--
-    <el-submenu  index="2">
+    
+    <!-- <el-submenu  index="2">
       <template slot="title">Program</template>
       <el-menu-item index="./Program">Program at a Glance</el-menu-item>
-      <el-menu-item index="./Invited">Invited Speakers</el-menu-item>
+      <el-menu-item index="./Invited">Plenary Speakers</el-menu-item>
       <el-menu-item index="./Tutorials">Tutorials & Workshops</el-menu-item>
-    </el-submenu>
-    -->
+    </el-submenu> -->
+   
     <el-menu-item  index="./CallForPapers">
       <template slot="title">Call for Papers</template>
     </el-menu-item>
@@ -45,12 +45,14 @@
     <el-menu-item index="./history">
       <template slot="title">History</template>
     </el-menu-item>
+    
     <el-menu-item index="./FAQ">
-      <template slot="title">
-        <p class="el-icon-question pt-2"></p>
+      <template slot="title" >
         <a href="https://github.com/leledeyuan00/rcar_wiki/wiki/FAQ" >
+        <p class="el-icon-question pt-2"></p>
         FAQ</a></template>
     </el-menu-item>
+    
     
     <!-- <el-menu-item index="3" disabled>消息中心</el-menu-item>
     <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>-->

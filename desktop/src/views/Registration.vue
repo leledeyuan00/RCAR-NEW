@@ -1,5 +1,5 @@
 <template>
-  <div class="body-main border-body bg-white ql-align-articles">
+  <div class="body-main border-body bg-white ql-align-articles px-3">
       <h1 span style="color:rgb(0,102,204)">
         Registration
       </h1>

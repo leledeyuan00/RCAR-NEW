@@ -10,26 +10,22 @@
         <font color="#FF0000">ten minutes</font>
         . After the presentation, we will arrange 
         <font color="#FF0000">three minutes for Q&A</font>
-        . The presenters have to try to answer the questions from the audience.</p>
+        . The presenters have to try to answer the questions from the audience.
+        <a href="https://intl.cloud.tencent.com/product/tvm?lang=en&pg=" style="background-color:transparent;color: rgb(250,0,0);">Tecent VooV Meeting is needed, click here to download.</a></p>
       </h5>
-      <img src="./../../../src/images/20200926224455.png" class="card-im-left" width="100%">
+      <!-- <img src="./../../../src/images/20200926224455.png" class="card-im-left" width="100%">
       
-      <!-- <h1 span style="color:rgb(0,102,204)">
+      <h1 span style="color:rgb(0,102,204)">
         Detailed Technical Program
       </h1>
       <br>
+      <img src="./../../../src/images/1601032051.jpg" width="100%"> 
+      <img src="./../../../src/images/1601032056.jpg" width="100%">
       <h3>
         <font>
              <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Technical_Sessions.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
         </font>
-      </h3>
-      <br>
-      <img src="./../../../src/images/1601032051.jpg" width="100%"> 
-      <img src="./../../../src/images/1601032056.jpg" width="100%">
-      <br>
-      <h1 span style="color:rgb(0,102,204)">
-        Instructions for Presenters
-      </h1> -->
+      </h3> -->
 
   </div>
 </template>

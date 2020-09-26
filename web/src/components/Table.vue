@@ -23,8 +23,8 @@
             </div>
             <div v-else>{{table.info}}</div>
           </b-th>
-          <b-th class="text-center fw-s old">{{ table.old_date }}</b-th>
-          <b-th class="text-center fw-s new">{{ table.date }}</b-th>
+          <!-- <b-th class="text-center fw-s old">{{ table.old_date }}</b-th> -->
+          <b-th class="text-center fw-s old">{{ table.date }}</b-th>
         </b-tr>
       </b-tbody>
     </b-table-simple>

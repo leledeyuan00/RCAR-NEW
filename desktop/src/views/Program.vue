@@ -12,7 +12,7 @@
         <font color="#FF0000">three minutes for Q&A</font>
         . The presenters have to try to answer the questions from the audience.</p>
       </h5>
-      <!-- <img src="./../../../src/images/1601032051.jpg" class="card-im-left" width="100%"> -->
+      <img src="./../../../src/images/20200926224455.png" class="card-im-left" width="100%">
       
       <!-- <h1 span style="color:rgb(0,102,204)">
         Detailed Technical Program
@@ -24,7 +24,7 @@
         </font>
       </h3>
       <br>
-      <img src="./../../../src/images/1601032051.jpg" width="100%">
+      <img src="./../../../src/images/1601032051.jpg" width="100%"> 
       <img src="./../../../src/images/1601032056.jpg" width="100%">
       <br>
       <h1 span style="color:rgb(0,102,204)">

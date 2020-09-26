@@ -6,13 +6,38 @@
        Important Announcement
       <i class="el-icon-warning pl-2 imp"></i>
     </div>
-    <div class="fs-xl bg-light px-2 imp">
+    <div class="fs-xl bg-light px-2 ">
+      <p style="word-break:break-all">If the Paper ID and Title are not displayed during registration, you can use the passcode received in the email to log in to 
+      <a href="https://www.softconf.com/j/rcar2020">www.softconf.com/j/rcar2020</a>
+       and complete your personal information in Revise Participant Registration.</p>
+    <div class="text-right">
+       <pp>Program committee of RCAR 2020</pp>
+       <p>Sep. 20, 2020</p> 
+    </div>
+      <p>The registration has started on 
+          <font color="#FF0000">
+          Sep. 18
+          </font>
+          . It will be closed on Sept. 25. The online conference will be held on 
+          <font color="#FF0000">
+          Sep. 28,29
+          </font>.</p>
+    <div class="text-right">
+       <pp>Program committee of RCAR 2020</pp>
+       <p>Sep. 18, 2020</p> 
+    </div>
+      <p>Due to current situation of COVID-2019, the committee of RCAR 2020 has determined to change the conference to be a virtual one. The committee is now requiring authors to submit a presentation video for use in the coming online conference in the case when no authors of the paper can make a real-time presentation. The details on how to prepare for and upload the presentation video can be found in final submission page in the conference site. The registration site and the schedule of the online conference will be announced soon.  </p>
+      <div class="text-right">
+       <pp>Program committee of RCAR 2020</pp>
+       <p>Aug. 25, 2020</p> 
+    </div>
       <p>Since the current situation of COVID-19, the program committee has determined to postpone the conference. The registration site will be opened after the new schedule is determined. Please continue to follow the update in this website. 
-        </p><p>
+        </p>
+        <div class="text-right"><p>
         Program committee of RCAR 2020
         </p><p>
         July.1st 
-        </p>
+        </p></div>
     </div>
     <Welcom />
     <Router-link tag="div" to="./history" class="head-bar text-main-3" style="text-decoration:underline">Clik Here to History of RCAR</Router-link>

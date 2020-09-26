@@ -38,6 +38,20 @@ const routes = [
       import(/* webpackChunkName: "about" */ "./../views/Registration.vue"), props: true
   },
   {
+    path: "/Plenary", // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "./../views/Plenary.vue"), props: true
+  },
+  {
+    path: "/Keynote", // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "./../views/Keynote.vue"), props: true
+  },
+  {
     path: '/history',
     name: 'history',
     // route level code-splitting

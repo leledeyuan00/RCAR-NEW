@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <Navigator/>
-    <div
+    <!-- <div
       class="text-white fs-xl bg-info text-center pt-1"
       style="margin:auto; height:25px"
-    >August 2-6, 2020, Asahikawa, Japan</div>
+    >August 2-6, 2020, Asahikawa, Japan</div> -->
     <router-view />
     <div class="SchoolBadge">
       <SchoolBadge />

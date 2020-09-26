@@ -32,13 +32,13 @@
         <Announcement />
       </div> -->
       <div class="body_container home bg-white border-body ">
-      <h4 class="pt-2 text-center text-red">
+      <!-- <h4 class="pt-2 text-center text-red">
         Announcement of Registration
       </h4>
       <div class="msg bg-white px-2">
         <Register_anmt/>
-      </div>
-      <h4 class="pt-2 text-center">
+      </div> -->
+      <h4 class="pt-2 text-center text-red">
         Annoucement of Conference Schedule 
       <i class="el-icon --right"></i>
       </h4>

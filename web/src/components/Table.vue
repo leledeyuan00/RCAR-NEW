@@ -23,7 +23,7 @@
             </div>
             <div v-else>{{table.info}}</div>
           </b-th>
-          <b-th class="text-center fw-s old">{{ table.old_date }}</b-th>
+          <!-- <b-th class="text-center fw-s old">{{ table.old_date }}</b-th> -->
           <b-th class="text-center fw-s new">{{ table.date }}</b-th>
         </b-tr>
       </b-tbody>
@@ -59,9 +59,9 @@ export default {
           url: "./FinalSubmission"
         },
         {
-          date: "May.31,2020",
+          date: "Sep.18,2020",
           info: "Early bird registration",
-          old_date: "May.8.2020",
+          old_date: "May.31.2020",
           url: "./Registration"
         }
       ]

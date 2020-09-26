@@ -80,7 +80,7 @@
         <strong> Keynote Talk Ⅳ: 13:30-14:00, Tuesday, Sep. 29</strong>
       </h3>
       <br>
-      <img src="./../../../src/images/LinWang.png" class="card-im-left" width="175" height="222">
+      <img src="./../../../src/images/LinWang.jpg" class="card-im-left" width="175" height="222">
       <br>
       <h4>
         <strong> Prof. Lin Wang, Shanghai Jiao Tong University, China</strong>

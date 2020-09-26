@@ -26,7 +26,7 @@
       <img src="./../../../src/images/Detailed.png" width="100%"> 
       <h4>
         <font>
-             <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Detailed.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
+             <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Detailed_Technical_Program.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
         </font>
       </h4>
 

@@ -1,35 +1,67 @@
 <template>
-  <div>
-    <div class="server-articles">
-      <div class=" body-main px-3 bg-white fs-xxl" v-html="models[1].submenus[0].body"></div>
-    </div>
+  <div class="body-main border-body bg-white ql-align-articles px-3">
+      <h1 span style="color:rgb(0,102,204)">
+        Program at a Glance
+      </h1>
+      <br>
+      <h3><strong>The way for live presentation:</strong></h3>
+      <h5>
+      <p>The authors of the registered papers should make a live presentation in the time slot of the program. The authors can also choose to play the pre-recorded presentation video. The video files submitted to the conference site will be used as the backup. The duration of the presentation is 
+        <font color="#FF0000">ten minutes</font>
+        . After the presentation, we will arrange 
+        <font color="#FF0000">three minutes for Q&A</font>
+        . The presenters have to try to answer the questions from the audience.</p>
+      </h5>
+      <!-- <img src="./../../../src/images/1601032051.jpg" class="card-im-left" width="100%"> -->
+      
+      <!-- <h1 span style="color:rgb(0,102,204)">
+        Detailed Technical Program
+      </h1>
+      <br>
+      <h3>
+        <font>
+             <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Technical_Sessions.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
+        </font>
+      </h3>
+      <br>
+      <img src="./../../../src/images/1601032051.jpg" width="100%">
+      <img src="./../../../src/images/1601032056.jpg" width="100%">
+      <br>
+      <h1 span style="color:rgb(0,102,204)">
+        Instructions for Presenters
+      </h1> -->
+
   </div>
 </template>
 
 <script>
+import Vue from "vue";
+import { ImagePlugin } from "bootstrap-vue";
+Vue.use(ImagePlugin);
 export default {
-  props: {
-    title: {}
-  },
-  data() {
-    return {
-      models: {
-        submenus: {}
-      }
-    };
-  },
-  methods: {
-    async fetchArticles() {
-      const res = await this.$http.get("articles");
-      this.models = res.data;
-      console.log(this.models);
-    }
-  },
-  created() {
-    this.fetchArticles();
-  }
+  name: "home",
 };
 </script>
 
 <style>
+.home {
+  max-width: 1366px;
+  margin:auto;
+}
+.msg {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* .el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center; 
+     margin-left: 10%;
+    width:80%;
+  } */
+
+.el-main {
+  text-align: justify;
+}
 </style>

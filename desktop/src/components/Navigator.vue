@@ -24,7 +24,6 @@
       <el-menu-item index="./Program">Program at a Glance</el-menu-item>
       <el-menu-item index="./Plenary">Plenary Speakers</el-menu-item>
       <el-menu-item index="./Keynote">Keynote Speakers</el-menu-item>
-      <el-menu-item index="./Tutorials">Tutorials & Workshops</el-menu-item>
     </el-submenu>
    
     <el-menu-item index="./CallForPapers">

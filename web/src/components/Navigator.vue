@@ -23,7 +23,7 @@
           <b-navbar-nav class="m-auto">
             <b-nav-item-dropdown text="Program" left>
               <b-dropdown-item>
-                <router-link tag="div" :to="'#'">Program at a Glance</router-link>
+                <router-link tag="div" :to="'./Program'">Program at a Glance</router-link>
               </b-dropdown-item>
               <b-dropdown-item>
                 <router-link tag="div" :to="'./Plenary'">Plenary Speakers</router-link>

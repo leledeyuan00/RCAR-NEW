@@ -31,9 +31,6 @@
         <font>
              <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Detailed_Technical_Program.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
         </font>
-      <div class="mx-5 text-center">
-        <Table />
-      </div>
       </h4>
   </div>
 </template>

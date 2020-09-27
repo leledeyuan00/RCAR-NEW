@@ -40,13 +40,12 @@
 
 <script>
 import Vue from "vue";
-import Table from "./../components/LiveLinkTable.vue";
+// import Table from "./../components/LiveLinkTable.vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
 export default {
   name: "home",
   component:{
-    Table,
   }
 };
 </script>

@@ -20,7 +20,7 @@
         <font>
              <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Technical_Sessions.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Program in PDF</a>
         </font>
-        (contais Link to Meeting Room)
+        (contains Link to Meeting Room)
       </h4>
       <br>
       <h4>Please try the LiveLink below if the room is full.</h4>

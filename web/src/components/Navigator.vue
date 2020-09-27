@@ -54,19 +54,6 @@
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="m-auto">
-            <b-nav-item-dropdown disabled text="Venue" left>
-              <b-dropdown-item>
-                <router-link tag="div" :to="'#'">Conference Venue</router-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <router-link tag="div" :to="'#'">Accommodation</router-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <router-link tag="div" :to="'#'">About Asahikawa</router-link>
-              </b-dropdown-item>
-            </b-nav-item-dropdown>
-          </b-navbar-nav>
-          <b-navbar-nav class="m-auto">
             <b-nav-item>
               <router-link tag="div" :to="'./history'">History</router-link>
             </b-nav-item>

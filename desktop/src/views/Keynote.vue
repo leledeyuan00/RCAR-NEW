@@ -66,7 +66,7 @@
       <h4>
         <strong>Title: Structured Light based 3D Sensing: Applications and Trends</strong>
       </h4>
-      <h5><strong>Web Meeting Room ID: <a href="https://meeting.tencent.com/s/2hEONK8mKaG">967350543</a></strong></h5>
+      <h5><strong>Web Meeting Room ID: <a href="https://meeting.tencent.com/s/2hEONCk8mKaG">967350543</a></strong></h5>
       <h5>
       <p style="text-align:justify">
         <strong>Abstract:</strong>
@@ -91,7 +91,7 @@
       <h4>
         <strong>Title:Controllability and Cooperation of Networked Multi-agent Systems</strong>
       </h4>
-      <h5><strong>Web Meeting Room ID: <a href="https://meeting.tencent.com/s/2hEONK8mKaG">967350543</a></strong></h5>
+      <h5><strong>Web Meeting Room ID: <a href="https://meeting.tencent.com/s/2hEONCk8mKaG">967350543</a></strong></h5>
       <h5>
       <p style="text-align:justify">
         <strong>Abstract:</strong>

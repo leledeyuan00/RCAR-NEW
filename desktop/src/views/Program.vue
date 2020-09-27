@@ -18,9 +18,8 @@
       <img src="./../../../src/images/Program.png" class="card-im-left" width="100%">
       <h4>
         <font>
-             <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Technical_Sessions.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Program in PDF</a>
+             <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Detailed_Technical_Program.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Program in PDF</a>
         </font>
-        (contains Link to Meeting Room)
       </h4>
       <br>
       <h4>Please try the LiveLink below if the room is full.</h4>
@@ -30,9 +29,9 @@
       </h1>
       <br>
       <img src="./../../../src/images/Detailed.png" width="100%"> 
-      <h4>
+      <h4>.0
         <font>
-             <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Detailed_Technical_Program.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
+             <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Technical_Sessions.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
         </font>
       </h4>
       

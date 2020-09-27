@@ -62,19 +62,19 @@ export default {
           LiveLink: "https://meeting.tencent.com/l/Hq6pUjP7Yn22", 
         },
         {
-          room: "536 881 270", 
-          RoomLink:"https://meeting.tencent.com/s/ECshIH2k5Y0h",
-          LiveLink: "https://meeting.tencent.com/l/0n217XixH6sM", 
+          room: "297 903 525", 
+          RoomLink:"https://meeting.tencent.com/s/Wo9rSSDIbtVF",
+          LiveLink: "https://meeting.tencent.com/l/UrydC2Vr5z2U", 
         },
         {
-          room: "575 404 726", 
-          RoomLink:"https://meeting.tencent.com/s/nYkPoCljeLQ5",
-          LiveLink: "https://meeting.tencent.com/l/NqJTTi7PQ82f", 
+          room: "965 726 213", 
+          RoomLink:"https://meeting.tencent.com/s/APBjNmoAwfWw",
+          LiveLink: "https://meeting.tencent.com/l/3pQzHue28oZ1", 
         },
         {
-          room: "181 764 965", 
-          RoomLink:"https://meeting.tencent.com/s/b21Pv3S9V8mi",
-          LiveLink: "https://meeting.tencent.com/l/s14OsnkVsLz1", 
+          room: "193 919 359", 
+          RoomLink:"https://meeting.tencent.com/s/o8piRzIxupas",
+          LiveLink: "https://meeting.tencent.com/l/7Oh1L79ZieTJ", 
         },
         {
           room: "967 350 543", 
@@ -82,19 +82,19 @@ export default {
           LiveLink: "https://meeting.tencent.com/l/znpywgOfRmSM", 
         },
         {
-          room: "348 990 861", 
-          RoomLink:"https://meeting.tencent.com/s/tPCHYfhvVlDh",
-          LiveLink: "https://meeting.tencent.com/l/uNaBAvMljFlN", 
+          room: "948 144 623", 
+          RoomLink:"https://meeting.tencent.com/s/uk9mj3Dy1yZb",
+          LiveLink: "https://meeting.tencent.com/l/vPzANlKOJ0ti", 
         },
         {
-          room: "433 150 217", 
-          RoomLink:"https://meeting.tencent.com/s/3L0NYk6inTQn",
-          LiveLink: "https://meeting.tencent.com/l/eU5wwURCtmKW", 
+          room: "345 805 348", 
+          RoomLink:"https://meeting.tencent.com/s/SVZFDpFq2NIO",
+          LiveLink: "https://meeting.tencent.com/l/72uuLIQ0HvO4", 
         },
         {
-          room: "336 711 131", 
-          RoomLink:"https://meeting.tencent.com/s/zwWhjtBwPujN",
-          LiveLink: "https://meeting.tencent.com/l/1sev2mMTc7U4", 
+          room: "520 729 039", 
+          RoomLink:"https://meeting.tencent.com/s/YMhqSu9IWlP9",
+          LiveLink: "https://meeting.tencent.com/l/tlzrN20nGipq", 
         }
       ]
     };

@@ -13,7 +13,10 @@
         . The presenters have to try to answer the questions from the audience.
         <a href="https://intl.cloud.tencent.com/product/tvm?lang=en&pg=" style="background-color:transparent;color: rgb(250,0,0);">Tecent VooV Meeting is needed, click here to download.</a></p>
       </h5>
+      <h3><strong>Notice: The time in the following table means time in GMT+8 （Beijing, HongKong Time Zone）</strong></h3>
+      <h5><p></p></h5>
       <img src="./../../../src/images/Program.png" class="card-im-left" width="100%">
+      
       <h4>
         <font>
              <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Technical_Sessions.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Program in PDF</a>
@@ -28,17 +31,23 @@
         <font>
              <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Detailed_Technical_Program.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
         </font>
+      <div class="mx-5 text-center">
+        <Table />
+      </div>
       </h4>
-
   </div>
 </template>
 
 <script>
 import Vue from "vue";
+import Table from "./../components/LiveLinkTable.vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
 export default {
   name: "home",
+  component:{
+    Table,
+  }
 };
 </script>
 

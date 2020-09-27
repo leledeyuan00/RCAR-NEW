@@ -87,6 +87,13 @@ const router = new Router({
             import(/* webpackChunkName: "about" */ "./views/Keynote.vue"), props: true
         },
         {
+          path: "/Technical", // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(/* webpackChunkName: "about" */ "./views/Technical.vue"), props: true
+        },
+        {
           path: "/tutorials", // route level code-splitting
           // this generates a separate chunk (about.[hash].js) for this route
           // which is lazy-loaded when the route is visited.

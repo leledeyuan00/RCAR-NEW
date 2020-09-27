@@ -16,12 +16,15 @@
       <h3><strong>Notice: The time in the following table means time in GMT+8 （Beijing, HongKong Time Zone）</strong></h3>
       <h5><p></p></h5>
       <img src="./../../../src/images/Program.png" class="card-im-left" width="100%">
-      
       <h4>
         <font>
              <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Technical_Sessions.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Program in PDF</a>
         </font>
+        (contais Link to Meeting Room)
       </h4>
+      <br>
+      <h4>Please try the LiveLink below if the room is full.</h4>
+      <div class="msg bg-white px-2"><Table /></div>
       <h1 span style="color:rgb(0,102,204)">
         Detailed Technical Program
       </h1>
@@ -32,17 +35,19 @@
              <a href="http://www.ieee-rcar.com/uploads/IEEE_RCAR_2020_Detailed_Technical_Program.pdf" target="_blank" style="background-color:transparent;color: rgb(250,0,0);">Click here to download the Detailed Technical Program in PDF</a>
         </font>
       </h4>
+      
   </div>
 </template>
 
 <script>
 import Vue from "vue";
-// import Table from "./../components/LiveLinkTable.vue";
+import Table from "./../components/LiveLinkTable.vue";
 import { ImagePlugin } from "bootstrap-vue";
 Vue.use(ImagePlugin);
 export default {
   name: "home",
-  component:{
+  components: {
+    Table,
   }
 };
 </script>

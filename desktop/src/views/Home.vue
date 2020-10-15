@@ -39,6 +39,13 @@
         <Register_anmt/>
       </div> -->
       <h4 class="pt-2 text-center text-red">
+        New Announcement 
+      <i class="el-icon --right"></i>
+      </h4>
+      <div class="msg bg-white px-2">
+        <Download />
+      </div>
+      <h4 class="pt-2 text-center">
         Annoucement of Conference Schedule 
       <i class="el-icon --right"></i>
       </h4>
@@ -90,6 +97,7 @@ import TimeTable from "./../components/TimeTable.vue";
 import NewAnnouncement from "./../components/NewAnnouncement.vue";
 // import NewTimeTable from "./../components/NewTimeTable.vue";
 import Announcement from "./../components/Announcement.vue";
+import Download from "./../components/Download.vue";
 import CenferenceSchedule from "./../components/ConferenceSchedule.vue"
 import Register_anmt from "./../components/Register_anmt.vue"
 import { ImagePlugin } from "bootstrap-vue";
@@ -100,6 +108,7 @@ export default {
     Carousel,
     Body,
     TimeTable,
+    Download,
     NewAnnouncement,
     // NewTimeTable,
     Announcement,
